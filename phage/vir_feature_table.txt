@@ -1,0 +1,189 @@
+# feature	class	assembly	assembly_unit	seq_type	chromosome	genomic_accession	start	end	strand	product_accession	non-redundant_refseq	related_accession	name	symbol	GeneID	locus_tag	feature_interval_length	product_length	attributes
+gene	protein_coding	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	191	736	+					nu1	2703523	lambdap01	546		
+CDS	with_protein	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	191	736	+	NP_040580.1			DNA packaging protein	nu1	2703523	lambdap01	546	181	
+gene	protein_coding	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	711	2636	+					A	2703524	lambdap02	1926		
+CDS	with_protein	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	711	2636	+	NP_040581.1			DNA packaging protein	A	2703524	lambdap02	1926	641	
+gene	protein_coding	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	2633	2839	+					W	2703525	lambdap03	207		
+CDS	with_protein	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	2633	2839	+	NP_040582.1			head-tail joining protein	W	2703525	lambdap03	207	68	
+gene	protein_coding	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	2836	4437	+					B	2703526	lambdap04	1602		
+CDS	with_protein	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	2836	4437	+	NP_040583.1			capsid component	B	2703526	lambdap04	1602	533	
+gene	protein_coding	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	4418	5737	+					C	2703527	lambdap05	1320		
+CDS	with_protein	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	4418	5737	+	NP_040584.1			capsid component	C	2703527	lambdap05	1320	439	
+gene	protein_coding	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	5132	5737	+					nu3	2703528	lambdap06	606		
+CDS	with_protein	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	5132	5737	+	NP_040585.1			capsid assembly protein	nu3	2703528	lambdap06	606	201	
+gene	protein_coding	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	5747	6079	+					D	2703529	lambdap07	333		
+CDS	with_protein	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	5747	6079	+	NP_040586.1			head-DNA stabilization protein	D	2703529	lambdap07	333	110	
+gene	protein_coding	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	6135	7160	+					E	2703482	lambdap08	1026		
+CDS	with_protein	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	6135	7160	+	NP_040587.1			capsid component	E	2703482	lambdap08	1026	341	
+gene	protein_coding	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	7202	7600	+					Fi	2703483	lambdap09	399		
+CDS	with_protein	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	7202	7600	+	NP_040588.1			DNA packaging protein	Fi	2703483	lambdap09	399	132	
+gene	protein_coding	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	7612	7965	+					Fii	2703484	lambdap10	354		
+CDS	with_protein	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	7612	7965	+	NP_040589.1			head-tail joining protein	Fii	2703484	lambdap10	354	117	
+gene	protein_coding	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	7977	8555	+					Z	2703485	lambdap11	579		
+CDS	with_protein	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	7977	8555	+	NP_040590.1			tail component	Z	2703485	lambdap11	579	192	
+gene	protein_coding	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	8552	8947	+					U	2703486	lambdap12	396		
+CDS	with_protein	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	8552	8947	+	NP_040591.1			tail component	U	2703486	lambdap12	396	131	
+gene	protein_coding	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	8955	9695	+					V	2703487	lambdap13	741		
+CDS	with_protein	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	8955	9695	+	NP_040592.1			tail component	V	2703487	lambdap13	741	246	
+gene	protein_coding	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	9711	10133	+					G	2703488	lambdap14	423		
+CDS	with_protein	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	9711	10133	+	NP_040593.1			tail component	G	2703488	lambdap14	423	140	
+gene	protein_coding	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	10115	10549	+					T	2703489	lambdap15	435		
+CDS	with_protein	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	10115	10549	+	NP_040594.1			tail component	T	2703489	lambdap15	435	144	
+gene	protein_coding	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	10542	13103	+					H	2703511	lambdap16	2562		
+CDS	with_protein	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	10542	13103	+	NP_040595.1			tail component	H	2703511	lambdap16	2562	853	
+gene	protein_coding	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	13100	13429	+					M	2703512	lambdap17	330		
+CDS	with_protein	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	13100	13429	+	NP_040596.1			tail component	M	2703512	lambdap17	330	109	
+gene	protein_coding	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	13429	14127	+					L	2703513	lambdap18	699		
+CDS	with_protein	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	13429	14127	+	NP_040597.1			tail component	L	2703513	lambdap18	699	232	
+gene	protein_coding	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	14276	14875	+					K	2703514	lambdap19	600		
+CDS	with_protein	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	14276	14875	+	NP_040598.1			tail component	K	2703514	lambdap19	600	199	
+gene	protein_coding	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	14773	15444	+					I	2703515	lambdap20	672		
+CDS	with_protein	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	14773	15444	+	NP_040599.1			tail component	I	2703515	lambdap20	672	223	
+gene	protein_coding	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	15505	18903	+					J	2703516	lambdap21	3399		
+CDS	with_protein	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	15505	18903	+	NP_040600.1			tail:host specificity protein	J	2703516	lambdap21	3399	1132	
+gene	other	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	18482	35582	-						2703502	lambdap22	17101		
+mRNA		GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	18482	35582	-				mRNA-pl (alt.; via t'j4 terminator)		2703502	lambdap22	17101		
+gene	other	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	18597	35582	-						2703536	lambdap23	16986		
+mRNA		GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	18597	35582	-				mRNA-pl (alt.; via t'j3 terminator)		2703536	lambdap23	16986		
+gene	other	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	18637	35582	-						2703468	lambdap24	16946		
+mRNA		GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	18637	35582	-				mRNA-pl (alt.; via t'j2 terminator)		2703468	lambdap24	16946		
+gene	other	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	18671	35582	-						2703472	lambdap25	16912		
+mRNA		GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	18671	35582	-				mRNA-pl (alt.; via t'j1 terminator)		2703472	lambdap25	16912		
+gene	protein_coding	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	18965	19585	+					lom	2703517	lambdap26	621		
+CDS	with_protein	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	18965	19585	+	NP_040601.1			outer host membrane	lom	2703517	lambdap26	621	206	
+gene	protein_coding	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	19650	20855	+					orf-401	2703518	lambdap27	1206		
+CDS	with_protein	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	19650	20855	+	NP_040602.1			Tail fiber protein	orf-401	2703518	lambdap27	1206	401	
+gene	protein_coding	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	20147	20767	-					orf206b	3827061	lambdap90	621		
+CDS	with_protein	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	20147	20767	-	NP_040603.1			hypothetical protein	orf206b	3827061	lambdap90	621	206	
+gene	protein_coding	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	21029	21973	+					orf-314	2703519	lambdap28	945		
+CDS	with_protein	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	21029	21973	+	NP_040604.1			Tail fiber	orf-314	2703519	lambdap28	945	314	
+gene	protein_coding	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	21973	22557	+					orf-194	2703503	lambdap29	585		
+CDS	with_protein	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	21973	22557	+	NP_040605.1			Putative fiber assembly protein	orf-194	2703503	lambdap29	585	194	
+gene	protein_coding	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	22686	23918	-					ea47	3827051	lambdap80	1233		
+CDS	with_protein	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	22686	23918	-	NP_040606.1			ea47	ea47	3827051	lambdap80	1233	410	
+gene	other	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	23231	23231	-						2703520	lambdap30	1		
+mRNA		GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	23231	23231	-				mRNA-pbl		2703520	lambdap30	1		partial
+gene	protein_coding	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	24509	25399	-					ea31	3827052	lambdap81	891		
+CDS	with_protein	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	24509	25399	-	NP_040607.1			ea31	ea31	3827052	lambdap81	891	296	
+gene	protein_coding	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	25396	26973	-					ea59	3827053	lambdap82	1578		
+CDS	with_protein	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	25396	26973	-	NP_040608.1			ea59	ea59	3827053	lambdap82	1578	525	
+gene	other	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	27538	35582	-					xis	2703469	lambdap31	8045		
+mRNA		GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	27538	35582	-				mRNA-pl (alt.; via ti terminator)	xis	2703469	lambdap31	8045		
+gene	other	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	27538	29065	-						2703464	lambdap32	1528		
+mRNA		GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	27538	29065	-				mRNA int (integration; 356; via ti terminator)		2703464	lambdap32	1528		
+gene	protein_coding	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	27812	28882	-					int	2703470	lambdap33	1071		
+CDS	with_protein	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	27812	28882	-	NP_040609.1			integration protein	int	2703470	lambdap33	1071	356	
+gene	protein_coding	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	28860	29078	-					xis	2703504	lambdap34	219		
+CDS	with_protein	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	28860	29078	-	NP_040610.1			Excisionase	xis	2703504	lambdap34	219	72	
+gene	protein_coding	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	29118	29285	-						2703530	lambdap35	168		
+CDS	with_protein	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	29118	29285	-	NP_597778.1			hypothetical protein		2703530	lambdap35	168	55	
+gene	protein_coding	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	29374	29655	-					ea8.5	2703505	lambdap36	282		
+CDS	with_protein	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	29374	29655	-	NP_040611.1			ea8.5	ea8.5	2703505	lambdap36	282	93	
+gene	protein_coding	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	29847	30395	-					ea22	3827054	lambdap83	549		
+CDS	with_protein	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	29847	30395	-	NP_040612.1			ea22	ea22	3827054	lambdap83	549	182	
+gene	protein_coding	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	30839	31024	-					orf61	2703506	lambdap37	186		
+CDS	with_protein	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	30839	31024	-	NP_040613.1			hypothetical protein	orf61	2703506	lambdap37	186	61	
+gene	protein_coding	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	31005	31196	-					orf63	2703507	lambdap38	192		
+CDS	with_protein	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	31005	31196	-	NP_040614.1			hypothetical protein	orf63	2703507	lambdap38	192	63	
+gene	protein_coding	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	31169	31351	-					orf60a	2703508	lambdap39	183		
+CDS	with_protein	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	31169	31351	-	NP_040615.1			hypothetical protein	orf60a	2703508	lambdap39	183	60	
+gene	other	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	31262	35582	-						2703535	lambdap40	4321		
+mRNA		GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	31262	35582	-				mRNA-pl (alt.; via tl3 terminator)		2703535	lambdap40	4321		
+gene	protein_coding	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	31348	32028	-					exo	2703522	lambdap41	681		
+CDS	with_protein	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	31348	32028	-	NP_040616.1			exonuclease	exo	2703522	lambdap41	681	226	
+gene	protein_coding	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	32025	32810	-					bet	3827055	lambdap84	786		
+CDS	with_protein	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	32025	32810	-	NP_040617.1			bet	bet	3827055	lambdap84	786	261	
+gene	protein_coding	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	32816	33232	-					gam	2703509	lambdap42	417		
+CDS	with_protein	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	32816	33232	-	NP_040618.1			host-nuclease inhibitor protein Gam	gam	2703509	lambdap42	417	138	
+gene	other	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	33100	35582	-						2703542	lambdap43	2483		
+mRNA		GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	33100	35582	-				mRNA-pl (alt.; via tl2d terminator)		2703542	lambdap43	2483		
+gene	other	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	33141	35582	-						2703471	lambdap44	2442		
+mRNA		GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	33141	35582	-				mRNA-pl (alt.; via tl2c terminator)		2703471	lambdap44	2442		
+gene	protein_coding	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	33187	33330	-					kil	3827057	lambdap85	144		
+CDS	with_protein	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	33187	33330	-	NP_040619.1			host-killing protein	kil	3827057	lambdap85	144	47	
+gene	protein_coding	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	33299	33463	-					cIII	3827056	lambdap86	165		
+CDS	with_protein	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	33299	33463	-	NP_040620.1			antitermination protein	cIII	3827056	lambdap86	165	54	
+gene	protein_coding	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	33494	35582	-					ea10	2703541	lambdap45	2089		
+mRNA		GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	33494	35582	-			NP_040621.1	mRNA-pl (alt.; via tl2b terminator)	ea10	2703541	lambdap45	2089		
+CDS	with_protein	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	33536	33904	-	NP_040621.1			Putative single-stranded DNA binding protein	ea10	2703541	lambdap45	369	122	
+gene	protein_coding	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	33930	35582	-					ral	2703473	lambdap46	1653		
+mRNA		GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	33930	35582	-			NP_040622.1	mRNA-pl (alt.; via tl2a terminator)	ral	2703473	lambdap46	1653		
+CDS	with_protein	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	34087	34287	-	NP_040622.1			restriction alleviation protein	ral	2703473	lambdap46	201	66	
+gene	protein_coding	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	34271	34357	-					orf28	2703510	lambdap47	87		
+CDS	with_protein	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	34271	34357	-	NP_040623.1			hypothetical protein	orf28	2703510	lambdap47	87	28	
+gene	protein_coding	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	34482	35036	+						2703531	lambdap48	555		
+CDS	with_protein	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	34482	35036	+	NP_597779.1			Superinfection exclusion protein B		2703531	lambdap48	555	184	
+gene	protein_coding	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	34560	35582	-					N	2703540	lambdap49	1023		
+mRNA		GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	34560	35582	-			NP_040625.1	mRNA-pl (alt.; via tl1 terminator)	N	2703540	lambdap49	1023		
+CDS	with_protein	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	35037	35438	-	NP_040625.1			early gene regulator	N	2703540	lambdap49	402	133	
+gene	other	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	35798	38343	-						2703537	lambdap50	2546		
+mRNA		GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	35798	38343	-				mRNA-pre (via timm terminator)		2703537	lambdap50	2546		
+gene	other	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	35798	37940	-						2703538	lambdap51	2143		
+mRNA		GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	35798	37940	-				mRNA-prm (via timm terminator)		2703538	lambdap51	2143		
+gene	other	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	35798	36256	-						2703465	lambdap52	459		
+mRNA		GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	35798	36256	-				mRNA-plit (via timm terminator)		2703465	lambdap52	459		
+gene	protein_coding	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	35825	36259	-					rexb	2703493	lambdap53	435		
+CDS	with_protein	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	35825	36259	-	NP_040626.1			exclusion protein	rexb	2703493	lambdap53	435	144	
+gene	protein_coding	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	36275	37114	-					rexa	3827058	lambdap87	840		
+CDS	with_protein	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	36275	37114	-	NP_040627.1			exclusion protein	rexa	3827058	lambdap87	840	279	
+gene	protein_coding	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	37227	37940	-					cI	3827059	lambdap88	714		
+CDS	with_protein	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	37227	37940	-	NP_040628.1			repressor	cI	3827059	lambdap88	714	237	
+gene	other	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	38023	40624	+						2703490	lambdap54	2602		
+mRNA		GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	38023	40624	+				mRNA-pr (alt.; via tr2 terminator)		2703490	lambdap54	2602		
+gene	other	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	38023	38370	+						2703491	lambdap55	348		
+mRNA		GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	38023	38370	+				mRNA-pr (alt.; via tr1c terminator)		2703491	lambdap55	348		
+gene	other	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	38023	38337	+						2703466	lambdap56	315		
+mRNA		GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	38023	38337	+				mRNA-pr (alt.; via tr1b terminator)		2703466	lambdap56	315		
+gene	protein_coding	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	38023	38315	+					cro	2703467	lambdap57	293		
+mRNA		GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	38023	38315	+			NP_040629.1	mRNA-pr (alt.; via tr1a terminator)	cro	2703467	lambdap57	293		
+gene	other	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	38023	38135	+						2703539	lambdap58	113		
+mRNA		GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	38023	38135	+				mRNA-pr (alt.; via tr0 terminator)		2703539	lambdap58	113		
+CDS	with_protein	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	38041	38241	+	NP_040629.1			antirepressor	cro	2703467	lambdap57	201	66	
+gene	protein_coding	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	38360	38653	+					cII	2703494	lambdap59	294		
+CDS	with_protein	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	38360	38653	+	NP_040630.1			cII protein	cII	2703494	lambdap59	294	97	
+gene	other	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	38599	38675	-						2703492	lambdap60	77		
+mRNA		GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	38599	38675	-				mRNA-oop transcription mRNA		2703492	lambdap60	77		
+gene	protein_coding	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	38686	39585	+					O	3827060	lambdap89	900		
+CDS	with_protein	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	38686	39585	+	NP_040631.1			DNA replication protein	O	3827060	lambdap89	900	299	
+gene	protein_coding	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	39582	40283	+					P	2703495	lambdap61	702		
+CDS	with_protein	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	39582	40283	+	NP_040632.1			DNA replication protein	P	2703495	lambdap61	702	233	
+gene	protein_coding	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	40280	40570	+					ren	2703496	lambdap62	291		
+CDS	with_protein	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	40280	40570	+	NP_040633.1			ren exclusion protein	ren	2703496	lambdap62	291	96	
+gene	protein_coding	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	40644	41084	+					NinB	2703497	lambdap63	441		
+CDS	with_protein	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	40644	41084	+	NP_040634.1			NinB	NinB	2703497	lambdap63	441	146	
+gene	protein_coding	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	41081	41953	+					NinC	2703498	lambdap64	873		
+CDS	with_protein	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	41081	41953	+	NP_040635.1			NinC protein	NinC	2703498	lambdap64	873	290	
+gene	protein_coding	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	41950	42123	+					NinD	2703499	lambdap65	174		
+CDS	with_protein	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	41950	42123	+	NP_040636.1			NinD protein	NinD	2703499	lambdap65	174	57	
+gene	protein_coding	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	42090	42272	+					NinE	2703500	lambdap66	183		
+CDS	with_protein	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	42090	42272	+	NP_040637.1			NinE protein	NinE	2703500	lambdap66	183	60	
+gene	protein_coding	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	42269	42439	+					NinF	2703501	lambdap67	171		
+CDS	with_protein	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	42269	42439	+	NP_040638.1			NinF protein	NinF	2703501	lambdap67	171	56	
+gene	protein_coding	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	42429	43043	+					NinG	2703474	lambdap68	615		
+CDS	with_protein	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	42429	43043	+	NP_040639.1			NinG protein	NinG	2703474	lambdap68	615	204	
+gene	protein_coding	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	43040	43246	+					NinH	2703475	lambdap69	207		
+CDS	with_protein	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	43040	43246	+	NP_040640.1			NinH protein	NinH	2703475	lambdap69	207	68	
+gene	protein_coding	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	43224	43889	+					NinI	2703476	lambdap70	666		
+CDS	with_protein	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	43224	43889	+	NP_040641.1			NinI protein	NinI	2703476	lambdap70	666	221	
+gene	protein_coding	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	43886	44509	+					Q	2703477	lambdap71	624		
+CDS	with_protein	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	43886	44509	+	NP_040642.1			late gene regulator	Q	2703477	lambdap71	624	207	
+gene	other	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	44587	44780	+						2703521	lambdap72	194		
+mRNA		GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	44587	44780	+				mRNA-pr' transcription (late genes) mRNA		2703521	lambdap72	194		
+gene	protein_coding	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	44621	44815	+					orf-64	2703478	lambdap73	195		
+CDS	with_protein	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	44621	44815	+	NP_040643.1			hypothetical protein	orf-64	2703478	lambdap73	195	64	
+gene	protein_coding	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	45186	45509	+					S	2703479	lambdap74	324		
+CDS	with_protein	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	45186	45509	+	NP_040644.1			anti-holin	S	2703479	lambdap74	324	107	
+gene	protein_coding	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	45192	45509	+					S'	5740919	lambdap92	318		
+CDS	with_protein	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	45192	45509	+	YP_001551775.1			holin	S'	5740919	lambdap92	318	105	
+gene	protein_coding	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	45493	45969	+					R	2703480	lambdap75	477		
+CDS	with_protein	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	45493	45969	+	NP_040645.1			endolysin	R	2703480	lambdap75	477	158	
+gene	protein_coding	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	45966	46427	+					Rz	2703481	lambdap76	462		
+CDS	with_protein	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	45966	46427	+	NP_040646.1			cell lysis protein	Rz	2703481	lambdap76	462	153	
+gene	protein_coding	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	46186	46368	+					Rz1	5739319	lambdap91	183		
+CDS	with_protein	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	46186	46368	+	YP_001551744.1			Rz1 protein	Rz1	5739319	lambdap91	183	60	
+gene	protein_coding	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	46459	46752	-					bor	2703532	lambdap77	294		
+CDS	with_protein	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	46459	46752	-	NP_597780.1			Bor protein precursor	bor	2703532	lambdap77	294	97	
+gene	protein_coding	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	47042	47575	-						2703533	lambdap78	534		
+CDS	with_protein	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	47042	47575	-	NP_597781.1			putative envelope protein		2703533	lambdap78	534	177	
+gene	protein_coding	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	47738	47944	+						2703534	lambdap79	207		
+CDS	with_protein	GCF_000840245.1	Primary assembly	segment	Unknown	NC_001416.1	47738	47944	+	NP_597782.1			hypothetical protein		2703534	lambdap79	207	68	

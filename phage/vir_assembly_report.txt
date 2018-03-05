@@ -1,0 +1,25 @@
+# Assembly name:  ViralProj14204
+# Organism name:  Escherichia virus Lambda (viruses)
+# Taxid:          10710
+# BioProject:     PRJNA14204
+# Submitter:      n/a
+# Date:           1993-4-28
+# Assembly type:  n/a
+# Release type:   major
+# Assembly level: Complete Genome
+# Genome representation: full
+# GenBank assembly accession: GCA_000840245.1
+# RefSeq assembly accession: GCF_000840245.1
+# RefSeq assembly and GenBank assemblies identical: yes
+#
+## Assembly-Units:
+## GenBank Unit Accession	RefSeq Unit Accession	Assembly-Unit name
+## GCA_000840235.1	GCF_000840235.1	Primary assembly
+#
+# Ordered by chromosome/plasmid; the chromosomes/plasmids are followed by
+# unlocalized scaffolds.
+# Unplaced scaffolds are listed at the end.
+# RefSeq is equal or derived from GenBank object.
+#
+# Sequence-Name	Sequence-Role	Assigned-Molecule	Assigned-Molecule-Location/Type	GenBank-Accn	Relationship	RefSeq-Accn	Assembly-Unit	Sequence-Length	UCSC-style-name
+Unknown	assembled-molecule	Unknown	Segment	J02459.1	=	NC_001416.1	Primary assembly	48502	na

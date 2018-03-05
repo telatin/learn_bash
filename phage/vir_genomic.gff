@@ -1,0 +1,314 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ViralProj14204
+#!genome-build-accession NCBI_Assembly:GCF_000840245.1
+##sequence-region NC_001416.1 1 48502
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=10710
+NC_001416.1	RefSeq	region	1	48502	.	+	.	ID=id0;Dbxref=taxon:10710;gbkey=Src;genome=genomic;mol_type=genomic DNA;nat-host=Escherichia coli;old-name=Bacteriophage lambda
+NC_001416.1	RefSeq	gene	191	736	.	+	.	ID=gene0;Dbxref=GeneID:2703523;Name=nu1;gbkey=Gene;gene=nu1;gene_biotype=protein_coding;locus_tag=lambdap01
+NC_001416.1	RefSeq	CDS	191	736	.	+	0	ID=cds0;Parent=gene0;Dbxref=Genbank:NP_040580.1,GeneID:2703523;Name=NP_040580.1;gbkey=CDS;gene=nu1;product=DNA packaging protein;protein_id=NP_040580.1;transl_table=11
+NC_001416.1	RefSeq	gene	711	2636	.	+	.	ID=gene1;Dbxref=GeneID:2703524;Name=A;gbkey=Gene;gene=A;gene_biotype=protein_coding;locus_tag=lambdap02
+NC_001416.1	RefSeq	CDS	711	2636	.	+	0	ID=cds1;Parent=gene1;Dbxref=Genbank:NP_040581.1,GeneID:2703524;Name=NP_040581.1;gbkey=CDS;gene=A;product=DNA packaging protein;protein_id=NP_040581.1;transl_table=11
+NC_001416.1	RefSeq	gene	2633	2839	.	+	.	ID=gene2;Dbxref=GeneID:2703525;Name=W;gbkey=Gene;gene=W;gene_biotype=protein_coding;locus_tag=lambdap03
+NC_001416.1	RefSeq	CDS	2633	2839	.	+	0	ID=cds2;Parent=gene2;Dbxref=Genbank:NP_040582.1,GeneID:2703525;Name=NP_040582.1;gbkey=CDS;gene=W;product=head-tail joining protein;protein_id=NP_040582.1;transl_table=11
+NC_001416.1	RefSeq	gene	2836	4437	.	+	.	ID=gene3;Dbxref=GeneID:2703526;Name=B;gbkey=Gene;gene=B;gene_biotype=protein_coding;locus_tag=lambdap04
+NC_001416.1	RefSeq	CDS	2836	4437	.	+	0	ID=cds3;Parent=gene3;Dbxref=Genbank:NP_040583.1,GeneID:2703526;Name=NP_040583.1;gbkey=CDS;gene=B;product=capsid component;protein_id=NP_040583.1;transl_table=11
+NC_001416.1	RefSeq	gene	4418	5737	.	+	.	ID=gene4;Dbxref=GeneID:2703527;Name=C;gbkey=Gene;gene=C;gene_biotype=protein_coding;locus_tag=lambdap05
+NC_001416.1	RefSeq	CDS	4418	5737	.	+	0	ID=cds4;Parent=gene4;Dbxref=Genbank:NP_040584.1,GeneID:2703527;Name=NP_040584.1;gbkey=CDS;gene=C;product=capsid component;protein_id=NP_040584.1;transl_table=11
+NC_001416.1	RefSeq	gene	5132	5737	.	+	.	ID=gene5;Dbxref=GeneID:2703528;Name=nu3;gbkey=Gene;gene=nu3;gene_biotype=protein_coding;locus_tag=lambdap06
+NC_001416.1	RefSeq	CDS	5132	5737	.	+	0	ID=cds5;Parent=gene5;Dbxref=Genbank:NP_040585.1,GeneID:2703528;Name=NP_040585.1;gbkey=CDS;gene=nu3;product=capsid assembly protein;protein_id=NP_040585.1;transl_table=11
+NC_001416.1	RefSeq	gene	5747	6079	.	+	.	ID=gene6;Dbxref=GeneID:2703529;Name=D;gbkey=Gene;gene=D;gene_biotype=protein_coding;locus_tag=lambdap07
+NC_001416.1	RefSeq	CDS	5747	6079	.	+	0	ID=cds6;Parent=gene6;Dbxref=Genbank:NP_040586.1,GeneID:2703529;Name=NP_040586.1;gbkey=CDS;gene=D;product=head-DNA stabilization protein;protein_id=NP_040586.1;transl_table=11
+NC_001416.1	RefSeq	gene	6135	7160	.	+	.	ID=gene7;Dbxref=GeneID:2703482;Name=E;gbkey=Gene;gene=E;gene_biotype=protein_coding;locus_tag=lambdap08
+NC_001416.1	RefSeq	CDS	6135	7160	.	+	0	ID=cds7;Parent=gene7;Dbxref=Genbank:NP_040587.1,GeneID:2703482;Name=NP_040587.1;gbkey=CDS;gene=E;product=capsid component;protein_id=NP_040587.1;transl_table=11
+NC_001416.1	RefSeq	gene	7202	7600	.	+	.	ID=gene8;Dbxref=GeneID:2703483;Name=Fi;gbkey=Gene;gene=Fi;gene_biotype=protein_coding;locus_tag=lambdap09
+NC_001416.1	RefSeq	CDS	7202	7600	.	+	0	ID=cds8;Parent=gene8;Dbxref=Genbank:NP_040588.1,GeneID:2703483;Name=NP_040588.1;gbkey=CDS;gene=Fi;product=DNA packaging protein;protein_id=NP_040588.1;transl_table=11
+NC_001416.1	RefSeq	gene	7612	7965	.	+	.	ID=gene9;Dbxref=GeneID:2703484;Name=Fii;gbkey=Gene;gene=Fii;gene_biotype=protein_coding;locus_tag=lambdap10
+NC_001416.1	RefSeq	CDS	7612	7965	.	+	0	ID=cds9;Parent=gene9;Dbxref=Genbank:NP_040589.1,GeneID:2703484;Name=NP_040589.1;gbkey=CDS;gene=Fii;product=head-tail joining protein;protein_id=NP_040589.1;transl_table=11
+NC_001416.1	RefSeq	gene	7977	8555	.	+	.	ID=gene10;Dbxref=GeneID:2703485;Name=Z;gbkey=Gene;gene=Z;gene_biotype=protein_coding;locus_tag=lambdap11
+NC_001416.1	RefSeq	CDS	7977	8555	.	+	0	ID=cds10;Parent=gene10;Dbxref=Genbank:NP_040590.1,GeneID:2703485;Name=NP_040590.1;gbkey=CDS;gene=Z;product=tail component;protein_id=NP_040590.1;transl_table=11
+NC_001416.1	RefSeq	gene	8552	8947	.	+	.	ID=gene11;Dbxref=GeneID:2703486;Name=U;gbkey=Gene;gene=U;gene_biotype=protein_coding;locus_tag=lambdap12
+NC_001416.1	RefSeq	CDS	8552	8947	.	+	0	ID=cds11;Parent=gene11;Dbxref=Genbank:NP_040591.1,GeneID:2703486;Name=NP_040591.1;gbkey=CDS;gene=U;product=tail component;protein_id=NP_040591.1;transl_table=11
+NC_001416.1	RefSeq	gene	8955	9695	.	+	.	ID=gene12;Dbxref=GeneID:2703487;Name=V;gbkey=Gene;gene=V;gene_biotype=protein_coding;locus_tag=lambdap13
+NC_001416.1	RefSeq	CDS	8955	9695	.	+	0	ID=cds12;Parent=gene12;Dbxref=Genbank:NP_040592.1,GeneID:2703487;Name=NP_040592.1;gbkey=CDS;gene=V;product=tail component;protein_id=NP_040592.1;transl_table=11
+NC_001416.1	RefSeq	gene	9711	10133	.	+	.	ID=gene13;Dbxref=GeneID:2703488;Name=G;gbkey=Gene;gene=G;gene_biotype=protein_coding;locus_tag=lambdap14
+NC_001416.1	RefSeq	CDS	9711	10133	.	+	0	ID=cds13;Parent=gene13;Dbxref=Genbank:NP_040593.1,GeneID:2703488;Name=NP_040593.1;gbkey=CDS;gene=G;product=tail component;protein_id=NP_040593.1;transl_table=11
+NC_001416.1	RefSeq	gene	10115	10549	.	+	.	ID=gene14;Dbxref=GeneID:2703489;Name=T;gbkey=Gene;gene=T;gene_biotype=protein_coding;locus_tag=lambdap15
+NC_001416.1	RefSeq	CDS	10115	10549	.	+	0	ID=cds14;Parent=gene14;Dbxref=Genbank:NP_040594.1,GeneID:2703489;Name=NP_040594.1;gbkey=CDS;gene=T;product=tail component;protein_id=NP_040594.1;transl_table=11
+NC_001416.1	RefSeq	gene	10542	13103	.	+	.	ID=gene15;Dbxref=GeneID:2703511;Name=H;gbkey=Gene;gene=H;gene_biotype=protein_coding;locus_tag=lambdap16
+NC_001416.1	RefSeq	CDS	10542	13103	.	+	0	ID=cds15;Parent=gene15;Dbxref=Genbank:NP_040595.1,GeneID:2703511;Name=NP_040595.1;gbkey=CDS;gene=H;product=tail component;protein_id=NP_040595.1;transl_table=11
+NC_001416.1	RefSeq	gene	13100	13429	.	+	.	ID=gene16;Dbxref=GeneID:2703512;Name=M;gbkey=Gene;gene=M;gene_biotype=protein_coding;locus_tag=lambdap17
+NC_001416.1	RefSeq	CDS	13100	13429	.	+	0	ID=cds16;Parent=gene16;Dbxref=Genbank:NP_040596.1,GeneID:2703512;Name=NP_040596.1;gbkey=CDS;gene=M;product=tail component;protein_id=NP_040596.1;transl_table=11
+NC_001416.1	RefSeq	gene	13429	14127	.	+	.	ID=gene17;Dbxref=GeneID:2703513;Name=L;gbkey=Gene;gene=L;gene_biotype=protein_coding;locus_tag=lambdap18
+NC_001416.1	RefSeq	CDS	13429	14127	.	+	0	ID=cds17;Parent=gene17;Dbxref=Genbank:NP_040597.1,GeneID:2703513;Name=NP_040597.1;gbkey=CDS;gene=L;product=tail component;protein_id=NP_040597.1;transl_table=11
+NC_001416.1	RefSeq	gene	14276	14875	.	+	.	ID=gene18;Dbxref=GeneID:2703514;Name=K;gbkey=Gene;gene=K;gene_biotype=protein_coding;locus_tag=lambdap19
+NC_001416.1	RefSeq	CDS	14276	14875	.	+	0	ID=cds18;Parent=gene18;Dbxref=Genbank:NP_040598.1,GeneID:2703514;Name=NP_040598.1;gbkey=CDS;gene=K;product=tail component;protein_id=NP_040598.1;transl_table=11
+NC_001416.1	RefSeq	gene	14773	15444	.	+	.	ID=gene19;Dbxref=GeneID:2703515;Name=I;gbkey=Gene;gene=I;gene_biotype=protein_coding;locus_tag=lambdap20
+NC_001416.1	RefSeq	CDS	14773	15444	.	+	0	ID=cds19;Parent=gene19;Dbxref=Genbank:NP_040599.1,GeneID:2703515;Name=NP_040599.1;gbkey=CDS;gene=I;product=tail component;protein_id=NP_040599.1;transl_table=11
+NC_001416.1	RefSeq	gene	15505	18903	.	+	.	ID=gene20;Dbxref=GeneID:2703516;Name=J;gbkey=Gene;gene=J;gene_biotype=protein_coding;locus_tag=lambdap21
+NC_001416.1	RefSeq	CDS	15505	18903	.	+	0	ID=cds20;Parent=gene20;Dbxref=Genbank:NP_040600.1,GeneID:2703516;Name=NP_040600.1;gbkey=CDS;gene=J;product=tail:host specificity protein;protein_id=NP_040600.1;transl_table=11
+NC_001416.1	RefSeq	gene	18482	35582	.	-	.	ID=gene21;Dbxref=GeneID:2703502;Name=lambdap22;gbkey=Gene;gene_biotype=other;locus_tag=lambdap22
+NC_001416.1	RefSeq	mRNA	18482	35582	.	-	.	ID=rna0;Parent=gene21;Dbxref=GeneID:2703502;gbkey=mRNA;product=mRNA-pl (alt.%3B via t'j4 terminator)
+NC_001416.1	RefSeq	exon	18482	35582	.	-	.	ID=id1;Parent=rna0;Dbxref=GeneID:2703502;gbkey=mRNA;product=mRNA-pl (alt.%3B via t'j4 terminator)
+NC_001416.1	RefSeq	gene	18597	35582	.	-	.	ID=gene22;Dbxref=GeneID:2703536;Name=lambdap23;gbkey=Gene;gene_biotype=other;locus_tag=lambdap23
+NC_001416.1	RefSeq	mRNA	18597	35582	.	-	.	ID=rna1;Parent=gene22;Dbxref=GeneID:2703536;gbkey=mRNA;product=mRNA-pl (alt.%3B via t'j3 terminator)
+NC_001416.1	RefSeq	exon	18597	35582	.	-	.	ID=id2;Parent=rna1;Dbxref=GeneID:2703536;gbkey=mRNA;product=mRNA-pl (alt.%3B via t'j3 terminator)
+NC_001416.1	RefSeq	gene	18637	35582	.	-	.	ID=gene23;Dbxref=GeneID:2703468;Name=lambdap24;gbkey=Gene;gene_biotype=other;locus_tag=lambdap24
+NC_001416.1	RefSeq	mRNA	18637	35582	.	-	.	ID=rna2;Parent=gene23;Dbxref=GeneID:2703468;gbkey=mRNA;product=mRNA-pl (alt.%3B via t'j2 terminator)
+NC_001416.1	RefSeq	exon	18637	35582	.	-	.	ID=id3;Parent=rna2;Dbxref=GeneID:2703468;gbkey=mRNA;product=mRNA-pl (alt.%3B via t'j2 terminator)
+NC_001416.1	RefSeq	gene	18671	35582	.	-	.	ID=gene24;Dbxref=GeneID:2703472;Name=lambdap25;gbkey=Gene;gene_biotype=other;locus_tag=lambdap25
+NC_001416.1	RefSeq	mRNA	18671	35582	.	-	.	ID=rna3;Parent=gene24;Dbxref=GeneID:2703472;gbkey=mRNA;product=mRNA-pl (alt.%3B via t'j1 terminator)
+NC_001416.1	RefSeq	exon	18671	35582	.	-	.	ID=id4;Parent=rna3;Dbxref=GeneID:2703472;gbkey=mRNA;product=mRNA-pl (alt.%3B via t'j1 terminator)
+NC_001416.1	RefSeq	sequence_alteration	19368	23278	.	+	.	ID=id5;Dbxref=GeneID:2703472;Note=lac5 substitution;gbkey=variation
+NC_001416.1	RefSeq	sequence_alteration	27537	27537	.	+	.	ID=id6;Dbxref=GeneID:2703472;Note=t in sib3%3B c in wild-type;gbkey=variation;replace=t
+NC_001416.1	RefSeq	gene	18965	19585	.	+	.	ID=gene25;Dbxref=GeneID:2703517;Name=lom;gbkey=Gene;gene=lom;gene_biotype=protein_coding;locus_tag=lambdap26
+NC_001416.1	RefSeq	CDS	18965	19585	.	+	0	ID=cds21;Parent=gene25;Dbxref=Genbank:NP_040601.1,GeneID:2703517;Name=NP_040601.1;gbkey=CDS;gene=lom;product=outer host membrane;protein_id=NP_040601.1;transl_table=11
+NC_001416.1	RefSeq	gene	19650	20855	.	+	.	ID=gene26;Dbxref=GeneID:2703518;Name=orf-401;gbkey=Gene;gene=orf-401;gene_biotype=protein_coding;locus_tag=lambdap27
+NC_001416.1	RefSeq	CDS	19650	20855	.	+	0	ID=cds22;Parent=gene26;Dbxref=Genbank:NP_040602.1,GeneID:2703518;Name=NP_040602.1;gbkey=CDS;gene=orf-401;product=Tail fiber protein;protein_id=NP_040602.1;transl_table=11
+NC_001416.1	RefSeq	gene	20147	20767	.	-	.	ID=gene27;Dbxref=GeneID:3827061;Name=orf206b;gbkey=Gene;gene=orf206b;gene_biotype=protein_coding;locus_tag=lambdap90
+NC_001416.1	RefSeq	CDS	20147	20767	.	-	0	ID=cds23;Parent=gene27;Dbxref=Genbank:NP_040603.1,GeneID:3827061;Name=NP_040603.1;gbkey=CDS;gene=orf206b;product=hypothetical protein;protein_id=NP_040603.1;transl_table=11
+NC_001416.1	RefSeq	gene	21029	21973	.	+	.	ID=gene28;Dbxref=GeneID:2703519;Name=orf-314;gbkey=Gene;gene=orf-314;gene_biotype=protein_coding;locus_tag=lambdap28
+NC_001416.1	RefSeq	CDS	21029	21973	.	+	0	ID=cds24;Parent=gene28;Dbxref=Genbank:NP_040604.1,GeneID:2703519;Name=NP_040604.1;gbkey=CDS;gene=orf-314;product=Tail fiber;protein_id=NP_040604.1;transl_table=11
+NC_001416.1	RefSeq	sequence_alteration	21737	21737	.	+	.	ID=id7;Dbxref=GeneID:2703519;Note=b2 substitution terminating at the att site;end_range=21737,.;gbkey=variation;gene=orf-314;partial=true
+NC_001416.1	RefSeq	gene	21973	22557	.	+	.	ID=gene29;Dbxref=GeneID:2703503;Name=orf-194;gbkey=Gene;gene=orf-194;gene_biotype=protein_coding;locus_tag=lambdap29
+NC_001416.1	RefSeq	CDS	21973	22557	.	+	0	ID=cds25;Parent=gene29;Dbxref=Genbank:NP_040605.1,GeneID:2703503;Name=NP_040605.1;gbkey=CDS;gene=orf-194;product=Putative fiber assembly protein;protein_id=NP_040605.1;transl_table=11
+NC_001416.1	RefSeq	gene	22686	23918	.	-	.	ID=gene30;Dbxref=GeneID:3827051;Name=ea47;gbkey=Gene;gene=ea47;gene_biotype=protein_coding;locus_tag=lambdap80
+NC_001416.1	RefSeq	CDS	22686	23918	.	-	0	ID=cds26;Parent=gene30;Dbxref=Genbank:NP_040606.1,GeneID:3827051;Name=NP_040606.1;gbkey=CDS;gene=ea47;product=ea47;protein_id=NP_040606.1;transl_table=11
+NC_001416.1	RefSeq	gene	23231	23231	.	-	.	ID=gene31;Dbxref=GeneID:2703520;Name=lambdap30;gbkey=Gene;gene_biotype=other;locus_tag=lambdap30
+NC_001416.1	RefSeq	mRNA	23231	23231	.	-	.	ID=rna4;Parent=gene31;Dbxref=GeneID:2703520;gbkey=mRNA;partial=true;product=mRNA-pbl;start_range=.,23231
+NC_001416.1	RefSeq	exon	23231	23231	.	-	.	ID=id8;Parent=rna4;Dbxref=GeneID:2703520;gbkey=mRNA;partial=true;product=mRNA-pbl;start_range=.,23231
+NC_001416.1	RefSeq	recombination_region	24389	24390	.	+	.	ID=id9;gbkey=misc_recomb;organism=Bacteriophage lambda
+NC_001416.1	RefSeq	gene	24509	25399	.	-	.	ID=gene32;Dbxref=GeneID:3827052;Name=ea31;gbkey=Gene;gene=ea31;gene_biotype=protein_coding;locus_tag=lambdap81
+NC_001416.1	RefSeq	CDS	24509	25399	.	-	0	ID=cds27;Parent=gene32;Dbxref=Genbank:NP_040607.1,GeneID:3827052;Name=NP_040607.1;gbkey=CDS;gene=ea31;product=ea31;protein_id=NP_040607.1;transl_table=11
+NC_001416.1	RefSeq	gene	25396	26973	.	-	.	ID=gene33;Dbxref=GeneID:3827053;Name=ea59;gbkey=Gene;gene=ea59;gene_biotype=protein_coding;locus_tag=lambdap82
+NC_001416.1	RefSeq	CDS	25396	26973	.	-	0	ID=cds28;Parent=gene33;Dbxref=Genbank:NP_040608.1,GeneID:3827053;Name=NP_040608.1;gbkey=CDS;gene=ea59;product=ea59;protein_id=NP_040608.1;transl_table=11
+NC_001416.1	RefSeq	gene	27538	35582	.	-	.	ID=gene34;Dbxref=GeneID:2703469;Name=xis;gbkey=Gene;gene=xis;gene_biotype=other;locus_tag=lambdap31
+NC_001416.1	RefSeq	mRNA	27538	35582	.	-	.	ID=rna5;Parent=gene34;Dbxref=GeneID:2703469;gbkey=mRNA;gene=xis;product=mRNA-pl (alt.%3B via ti terminator)
+NC_001416.1	RefSeq	exon	27538	35582	.	-	.	ID=id10;Parent=rna5;Dbxref=GeneID:2703469;gbkey=mRNA;gene=xis;product=mRNA-pl (alt.%3B via ti terminator)
+NC_001416.1	RefSeq	gene	27538	29065	.	-	.	ID=gene35;Dbxref=GeneID:2703464;Name=lambdap32;gbkey=Gene;gene_biotype=other;locus_tag=lambdap32
+NC_001416.1	RefSeq	mRNA	27538	29065	.	-	.	ID=rna6;Parent=gene35;Dbxref=GeneID:2703464;gbkey=mRNA;product=mRNA int (integration%3B 356%3B via ti terminator)
+NC_001416.1	RefSeq	exon	27538	29065	.	-	.	ID=id11;Parent=rna6;Dbxref=GeneID:2703464;gbkey=mRNA;product=mRNA int (integration%3B 356%3B via ti terminator)
+NC_001416.1	RefSeq	sequence_alteration	27547	27547	.	+	.	ID=id12;Dbxref=GeneID:2703464;Note=a in hef13%3B g in wild-type;gbkey=variation;replace=a
+NC_001416.1	RefSeq	sequence_alteration	27568	27568	.	+	.	ID=id13;Dbxref=GeneID:2703464;Note=a in sib2%3B c in wild-type;gbkey=variation
+NC_001416.1	RefSeq	sequence_alteration	27573	27573	.	+	.	ID=id14;Dbxref=GeneID:2703464;Note=t in sib1%3B g in wild-type;gbkey=variation
+NC_001416.1	RefSeq	binding_site	27583	27602	.	+	.	ID=id15;bound_moiety=int 1;gbkey=misc_binding
+NC_001416.1	RefSeq	binding_site	27615	27634	.	+	.	ID=id16;bound_moiety=int 2;gbkey=misc_binding
+NC_001416.1	RefSeq	binding_site	27714	27747	.	+	.	ID=id17;bound_moiety=int 3;gbkey=misc_binding
+NC_001416.1	RefSeq	recombination_region	27724	27738	.	+	.	ID=id18;gbkey=misc_recomb;organism=Bacteriophage lambda
+NC_001416.1	RefSeq	gene	27812	28882	.	-	.	ID=gene36;Dbxref=GeneID:2703470;Name=int;gbkey=Gene;gene=int;gene_biotype=protein_coding;locus_tag=lambdap33
+NC_001416.1	RefSeq	CDS	27812	28882	.	-	0	ID=cds29;Parent=gene36;Dbxref=Genbank:NP_040609.1,GeneID:2703470;Name=NP_040609.1;gbkey=CDS;gene=int;product=integration protein;protein_id=NP_040609.1;transl_table=11
+NC_001416.1	RefSeq	binding_site	27814	27854	.	+	.	ID=id19;bound_moiety=int 4;gbkey=misc_binding
+NC_001416.1	RefSeq	gene	28860	29078	.	-	.	ID=gene37;Dbxref=GeneID:2703504;Name=xis;gbkey=Gene;gene=xis;gene_biotype=protein_coding;locus_tag=lambdap34
+NC_001416.1	RefSeq	CDS	28860	29078	.	-	0	ID=cds30;Parent=gene37;Dbxref=Genbank:NP_040610.1,GeneID:2703504;Name=NP_040610.1;gbkey=CDS;gene=xis;product=Excisionase;protein_id=NP_040610.1;transl_table=11
+NC_001416.1	RefSeq	sequence_alteration	29063	29063	.	+	.	ID=id20;Dbxref=GeneID:2703504;Note=a in xis am6%3B g in wild-type;gbkey=variation;gene=xis;replace=a
+NC_001416.1	RefSeq	gene	29118	29285	.	-	.	ID=gene38;Dbxref=GeneID:2703530;Name=lambdap35;gbkey=Gene;gene_biotype=protein_coding;locus_tag=lambdap35
+NC_001416.1	RefSeq	CDS	29118	29285	.	-	0	ID=cds31;Parent=gene38;Dbxref=Genbank:NP_597778.1,GeneID:2703530;Name=NP_597778.1;gbkey=CDS;product=hypothetical protein;protein_id=NP_597778.1;transl_table=11
+NC_001416.1	RefSeq	gene	29374	29655	.	-	.	ID=gene39;Dbxref=GeneID:2703505;Name=ea8.5;gbkey=Gene;gene=ea8.5;gene_biotype=protein_coding;locus_tag=lambdap36
+NC_001416.1	RefSeq	CDS	29374	29655	.	-	0	ID=cds32;Parent=gene39;Dbxref=Genbank:NP_040611.1,GeneID:2703505;Name=NP_040611.1;gbkey=CDS;gene=ea8.5;product=ea8.5;protein_id=NP_040611.1;transl_table=11
+NC_001416.1	RefSeq	gene	29847	30395	.	-	.	ID=gene40;Dbxref=GeneID:3827054;Name=ea22;gbkey=Gene;gene=ea22;gene_biotype=protein_coding;locus_tag=lambdap83
+NC_001416.1	RefSeq	CDS	29847	30395	.	-	0	ID=cds33;Parent=gene40;Dbxref=Genbank:NP_040612.1,GeneID:3827054;Name=NP_040612.1;gbkey=CDS;gene=ea22;product=ea22;protein_id=NP_040612.1;transl_table=11
+NC_001416.1	RefSeq	gene	30839	31024	.	-	.	ID=gene41;Dbxref=GeneID:2703506;Name=orf61;gbkey=Gene;gene=orf61;gene_biotype=protein_coding;locus_tag=lambdap37
+NC_001416.1	RefSeq	CDS	30839	31024	.	-	0	ID=cds34;Parent=gene41;Dbxref=Genbank:NP_040613.1,GeneID:2703506;Name=NP_040613.1;gbkey=CDS;gene=orf61;product=hypothetical protein;protein_id=NP_040613.1;transl_table=11
+NC_001416.1	RefSeq	gene	31005	31196	.	-	.	ID=gene42;Dbxref=GeneID:2703507;Name=orf63;gbkey=Gene;gene=orf63;gene_biotype=protein_coding;locus_tag=lambdap38
+NC_001416.1	RefSeq	CDS	31005	31196	.	-	0	ID=cds35;Parent=gene42;Dbxref=Genbank:NP_040614.1,GeneID:2703507;Name=NP_040614.1;gbkey=CDS;gene=orf63;product=hypothetical protein;protein_id=NP_040614.1;transl_table=11
+NC_001416.1	RefSeq	gene	31169	31351	.	-	.	ID=gene43;Dbxref=GeneID:2703508;Name=orf60a;gbkey=Gene;gene=orf60a;gene_biotype=protein_coding;locus_tag=lambdap39
+NC_001416.1	RefSeq	CDS	31169	31351	.	-	0	ID=cds36;Parent=gene43;Dbxref=Genbank:NP_040615.1,GeneID:2703508;Name=NP_040615.1;gbkey=CDS;gene=orf60a;product=hypothetical protein;protein_id=NP_040615.1;transl_table=11
+NC_001416.1	RefSeq	gene	31262	35582	.	-	.	ID=gene44;Dbxref=GeneID:2703535;Name=lambdap40;gbkey=Gene;gene_biotype=other;locus_tag=lambdap40
+NC_001416.1	RefSeq	mRNA	31262	35582	.	-	.	ID=rna7;Parent=gene44;Dbxref=GeneID:2703535;gbkey=mRNA;product=mRNA-pl (alt.%3B via tl3 terminator)
+NC_001416.1	RefSeq	exon	31262	35582	.	-	.	ID=id21;Parent=rna7;Dbxref=GeneID:2703535;gbkey=mRNA;product=mRNA-pl (alt.%3B via tl3 terminator)
+NC_001416.1	RefSeq	recombination_region	31266	31267	.	+	.	ID=id22;gbkey=misc_recomb;organism=Bacteriophage lambda
+NC_001416.1	RefSeq	gene	31348	32028	.	-	.	ID=gene45;Dbxref=GeneID:2703522;Name=exo;gbkey=Gene;gene=exo;gene_biotype=protein_coding;locus_tag=lambdap41
+NC_001416.1	RefSeq	CDS	31348	32028	.	-	0	ID=cds37;Parent=gene45;Dbxref=Genbank:NP_040616.1,GeneID:2703522;Name=NP_040616.1;gbkey=CDS;gene=exo;product=exonuclease;protein_id=NP_040616.1;transl_table=11
+NC_001416.1	RefSeq	gene	32025	32810	.	-	.	ID=gene46;Dbxref=GeneID:3827055;Name=bet;gbkey=Gene;gene=bet;gene_biotype=protein_coding;locus_tag=lambdap84
+NC_001416.1	RefSeq	CDS	32025	32810	.	-	0	ID=cds38;Parent=gene46;Dbxref=Genbank:NP_040617.1,GeneID:3827055;Name=NP_040617.1;gbkey=CDS;gene=bet;product=bet;protein_id=NP_040617.1;transl_table=11
+NC_001416.1	RefSeq	gene	32816	33232	.	-	.	ID=gene47;Dbxref=GeneID:2703509;Name=gam;gbkey=Gene;gene=gam;gene_biotype=protein_coding;locus_tag=lambdap42
+NC_001416.1	RefSeq	CDS	32816	33232	.	-	0	ID=cds39;Parent=gene47;Dbxref=Genbank:NP_040618.1,GeneID:2703509;Name=NP_040618.1;gbkey=CDS;gene=gam;product=host-nuclease inhibitor protein Gam;protein_id=NP_040618.1;transl_table=11
+NC_001416.1	RefSeq	gene	33100	35582	.	-	.	ID=gene48;Dbxref=GeneID:2703542;Name=lambdap43;gbkey=Gene;gene_biotype=other;locus_tag=lambdap43
+NC_001416.1	RefSeq	mRNA	33100	35582	.	-	.	ID=rna8;Parent=gene48;Dbxref=GeneID:2703542;gbkey=mRNA;product=mRNA-pl (alt.%3B via tl2d terminator)
+NC_001416.1	RefSeq	exon	33100	35582	.	-	.	ID=id23;Parent=rna8;Dbxref=GeneID:2703542;gbkey=mRNA;product=mRNA-pl (alt.%3B via tl2d terminator)
+NC_001416.1	RefSeq	gene	33141	35582	.	-	.	ID=gene49;Dbxref=GeneID:2703471;Name=lambdap44;gbkey=Gene;gene_biotype=other;locus_tag=lambdap44
+NC_001416.1	RefSeq	mRNA	33141	35582	.	-	.	ID=rna9;Parent=gene49;Dbxref=GeneID:2703471;gbkey=mRNA;product=mRNA-pl (alt.%3B via tl2c terminator)
+NC_001416.1	RefSeq	exon	33141	35582	.	-	.	ID=id24;Parent=rna9;Dbxref=GeneID:2703471;gbkey=mRNA;product=mRNA-pl (alt.%3B via tl2c terminator)
+NC_001416.1	RefSeq	gene	33187	33330	.	-	.	ID=gene50;Dbxref=GeneID:3827057;Name=kil;gbkey=Gene;gene=kil;gene_biotype=protein_coding;locus_tag=lambdap85
+NC_001416.1	RefSeq	CDS	33187	33330	.	-	0	ID=cds40;Parent=gene50;Dbxref=Genbank:NP_040619.1,GeneID:3827057;Name=NP_040619.1;gbkey=CDS;gene=kil;product=host-killing protein;protein_id=NP_040619.1;transl_table=11
+NC_001416.1	RefSeq	gene	33299	33463	.	-	.	ID=gene51;Dbxref=GeneID:3827056;Name=cIII;gbkey=Gene;gene=cIII;gene_biotype=protein_coding;locus_tag=lambdap86
+NC_001416.1	RefSeq	CDS	33299	33463	.	-	0	ID=cds41;Parent=gene51;Dbxref=Genbank:NP_040620.1,GeneID:3827056;Name=NP_040620.1;gbkey=CDS;gene=cIII;product=antitermination protein;protein_id=NP_040620.1;transl_table=11
+NC_001416.1	RefSeq	gene	33494	35582	.	-	.	ID=gene52;Dbxref=GeneID:2703541;Name=ea10;gbkey=Gene;gene=ea10;gene_biotype=protein_coding;locus_tag=lambdap45
+NC_001416.1	RefSeq	mRNA	33494	35582	.	-	.	ID=rna10;Parent=gene52;Dbxref=GeneID:2703541;gbkey=mRNA;gene=ea10;product=mRNA-pl (alt.%3B via tl2b terminator)
+NC_001416.1	RefSeq	exon	33494	35582	.	-	.	ID=id25;Parent=rna10;Dbxref=GeneID:2703541;gbkey=mRNA;gene=ea10;product=mRNA-pl (alt.%3B via tl2b terminator)
+NC_001416.1	RefSeq	CDS	33536	33904	.	-	0	ID=cds42;Parent=rna10;Dbxref=Genbank:NP_040621.1,GeneID:2703541;Name=NP_040621.1;gbkey=CDS;gene=ea10;product=Putative single-stranded DNA binding protein;protein_id=NP_040621.1;transl_table=11
+NC_001416.1	RefSeq	gene	33930	35582	.	-	.	ID=gene53;Dbxref=GeneID:2703473;Name=ral;gbkey=Gene;gene=ral;gene_biotype=protein_coding;locus_tag=lambdap46
+NC_001416.1	RefSeq	mRNA	33930	35582	.	-	.	ID=rna11;Parent=gene53;Dbxref=GeneID:2703473;gbkey=mRNA;gene=ral;product=mRNA-pl (alt.%3B via tl2a terminator)
+NC_001416.1	RefSeq	exon	33930	35582	.	-	.	ID=id26;Parent=rna11;Dbxref=GeneID:2703473;gbkey=mRNA;gene=ral;product=mRNA-pl (alt.%3B via tl2a terminator)
+NC_001416.1	RefSeq	CDS	34087	34287	.	-	0	ID=cds43;Parent=rna11;Dbxref=Genbank:NP_040622.1,GeneID:2703473;Name=NP_040622.1;gbkey=CDS;gene=ral;product=restriction alleviation protein;protein_id=NP_040622.1;transl_table=11
+NC_001416.1	RefSeq	gene	34271	34357	.	-	.	ID=gene54;Dbxref=GeneID:2703510;Name=orf28;gbkey=Gene;gene=orf28;gene_biotype=protein_coding;locus_tag=lambdap47
+NC_001416.1	RefSeq	CDS	34271	34357	.	-	0	ID=cds44;Parent=gene54;Dbxref=Genbank:NP_040623.1,GeneID:2703510;Name=NP_040623.1;gbkey=CDS;gene=orf28;product=hypothetical protein;protein_id=NP_040623.1;transl_table=11
+NC_001416.1	RefSeq	sequence_alteration	34378	38617	.	+	.	ID=id27;Note=imm21 region;gbkey=variation
+NC_001416.1	RefSeq	gene	34482	35036	.	+	.	ID=gene55;Dbxref=GeneID:2703531;Name=lambdap48;gbkey=Gene;gene_biotype=protein_coding;locus_tag=lambdap48
+NC_001416.1	RefSeq	CDS	34482	35036	.	+	0	ID=cds45;Parent=gene55;Dbxref=Genbank:NP_597779.1,GeneID:2703531;Name=NP_597779.1;gbkey=CDS;product=Superinfection exclusion protein B;protein_id=NP_597779.1;transl_table=11
+NC_001416.1	RefSeq	gene	34560	35582	.	-	.	ID=gene56;Dbxref=GeneID:2703540;Name=N;gbkey=Gene;gene=N;gene_biotype=protein_coding;locus_tag=lambdap49
+NC_001416.1	RefSeq	mRNA	34560	35582	.	-	.	ID=rna12;Parent=gene56;Dbxref=GeneID:2703540;gbkey=mRNA;gene=N;product=mRNA-pl (alt.%3B via tl1 terminator)
+NC_001416.1	RefSeq	exon	34560	35582	.	-	.	ID=id28;Parent=rna12;Dbxref=GeneID:2703540;gbkey=mRNA;gene=N;product=mRNA-pl (alt.%3B via tl1 terminator)
+NC_001416.1	RefSeq	CDS	35037	35438	.	-	0	ID=cds46;Parent=rna12;Dbxref=Genbank:NP_040625.1,GeneID:2703540;Name=NP_040625.1;gbkey=CDS;gene=N;product=early gene regulator;protein_id=NP_040625.1;transl_table=11
+NC_001416.1	RefSeq	binding_site	35518	35534	.	-	.	ID=id29;Dbxref=GeneID:2703540;Note=N-utilization leftward.%3B putative;bound_moiety=Nutl;gbkey=misc_binding;gene=N
+NC_001416.1	RefSeq	sequence_alteration	35528	35528	.	+	.	ID=id30;Dbxref=GeneID:2703540;Note=a in Nutl63%3B c in wild-type;gbkey=variation;gene=N;replace=a
+NC_001416.1	RefSeq	sequence_alteration	35528	35528	.	+	.	ID=id31;Dbxref=GeneID:2703540;Note=g in Nutl96%3B c in wild-type;gbkey=variation;gene=N;replace=g
+NC_001416.1	RefSeq	sequence_alteration	35528	35528	.	+	.	ID=id32;Dbxref=GeneID:2703540;Note=t in Nutl18%3B c in wild-type;gbkey=variation;gene=N;replace=t
+NC_001416.1	RefSeq	sequence_alteration	35529	35531	.	+	.	ID=id33;Dbxref=GeneID:2703540;Note=agg in wild-type%3B ag in Nutl3;gbkey=variation;gene=N;replace=ag
+NC_001416.1	RefSeq	sequence_alteration	35583	38245	.	+	.	ID=id34;Note=imm434 region;gbkey=variation
+NC_001416.1	RefSeq	region	35591	35607	.	-	.	ID=id35;Note=operator-l1 (first base on comp strand);gbkey=misc_signal
+NC_001416.1	RefSeq	sequence_alteration	35596	35596	.	+	.	ID=id36;Note=a in vir2%2C t in v003%2C c in wild-type;gbkey=variation
+NC_001416.1	RefSeq	sequence_alteration	35606	35606	.	+	.	ID=id37;Note=c in vir101%3B t in wild-type;gbkey=variation;replace=c
+NC_001416.1	RefSeq	region	35615	35631	.	-	.	ID=id38;Note=operator-l2 (first base on comp strand);gbkey=misc_signal
+NC_001416.1	RefSeq	sequence_alteration	35621	35621	.	+	.	ID=id39;Note=t in v305 %2C c in wild-type;gbkey=variation;replace=t
+NC_001416.1	RefSeq	sequence_alteration	35622	35622	.	+	.	ID=id40;Note=t in v305 %2C g in wild-type;gbkey=variation;replace=t
+NC_001416.1	RefSeq	region	35635	35651	.	-	.	ID=id41;Note=operator-l3 (first base on comp strand);gbkey=misc_signal
+NC_001416.1	RefSeq	gene	35798	38343	.	-	.	ID=gene57;Dbxref=GeneID:2703537;Name=lambdap50;gbkey=Gene;gene_biotype=other;locus_tag=lambdap50
+NC_001416.1	RefSeq	mRNA	35798	38343	.	-	.	ID=rna13;Parent=gene57;Dbxref=GeneID:2703537;gbkey=mRNA;product=mRNA-pre (via timm terminator)
+NC_001416.1	RefSeq	exon	35798	38343	.	-	.	ID=id42;Parent=rna13;Dbxref=GeneID:2703537;gbkey=mRNA;product=mRNA-pre (via timm terminator)
+NC_001416.1	RefSeq	sequence_alteration	37954	37954	.	+	.	ID=id43;Dbxref=GeneID:2703537;Note=t in prm-e37%3B c in wild-type;gbkey=variation;replace=t
+NC_001416.1	RefSeq	sequence_alteration	37955	37955	.	+	.	ID=id44;Dbxref=GeneID:2703537;Note=g in vc3%3B%2C a in wild-type;gbkey=variation;replace=g
+NC_001416.1	RefSeq	sequence_alteration	37957	37957	.	+	.	ID=id45;Dbxref=GeneID:2703537;Note=t in or3-r1%3B c in wild-type;gbkey=variation;replace=t
+NC_001416.1	RefSeq	sequence_alteration	37958	37958	.	+	.	ID=id46;Dbxref=GeneID:2703537;Note=a in or 3-r3 mutants%3B g in wild-type;gbkey=variation;replace=a
+NC_001416.1	RefSeq	sequence_alteration	37965	37965	.	+	.	ID=id47;Dbxref=GeneID:2703537;Note=g in or3-c12%3B a in wild-type;gbkey=variation;replace=g
+NC_001416.1	RefSeq	sequence_alteration	37966	37966	.	+	.	ID=id48;Dbxref=GeneID:2703537;Note=c in or3-c10%3B t in wild-type;gbkey=variation;replace=c
+NC_001416.1	RefSeq	sequence_alteration	37971	37971	.	+	.	ID=id49;Dbxref=GeneID:2703537;Note=g inp-rmup-1%3B a in wild-type;gbkey=variation;replace=g
+NC_001416.1	RefSeq	sequence_alteration	37973	37973	.	+	.	ID=id50;Dbxref=GeneID:2703537;Note=t in prm-m104%3B 116%3B u31 mutants%2C c in wild-type;gbkey=variation;replace=t
+NC_001416.1	RefSeq	sequence_alteration	37978	37978	.	+	.	ID=id51;Dbxref=GeneID:2703537;Note=g in vc3%3B a in wild-type;gbkey=variation;replace=g
+NC_001416.1	RefSeq	sequence_alteration	37978	37978	.	+	.	ID=id52;Dbxref=GeneID:2703537;Note=t in prm-e104%3B a in wild-type;gbkey=variation;replace=t
+NC_001416.1	RefSeq	sequence_alteration	37979	37979	.	+	.	ID=id53;Dbxref=GeneID:2703537;Note=t in prm-e93%3B c in wild-type;gbkey=variation;replace=t
+NC_001416.1	RefSeq	sequence_alteration	37985	37985	.	+	.	ID=id54;Dbxref=GeneID:2703537;Note=t in vn%3B g in wild-type;gbkey=variation;replace=t
+NC_001416.1	RefSeq	sequence_alteration	37988	37990	.	+	.	ID=id55;Dbxref=GeneID:2703537;Note=tg in mah4 mutant%3B ttg in wt;gbkey=variation;replace=tg
+NC_001416.1	RefSeq	sequence_alteration	37989	37991	.	+	.	ID=id56;Dbxref=GeneID:2703537;Note=ta in mch9 mutant%3B tga in wt;gbkey=variation;replace=ta
+NC_001416.1	RefSeq	sequence_alteration	37991	37991	.	+	.	ID=id57;Dbxref=GeneID:2703537;Note=g in pr-x3%3B a in wild-type;gbkey=variation;replace=g
+NC_001416.1	RefSeq	sequence_alteration	38003	38003	.	+	.	ID=id58;Dbxref=GeneID:2703537;Note=a in vs326%3B c in wild-type;gbkey=variation;replace=a
+NC_001416.1	RefSeq	sequence_alteration	38007	38007	.	+	.	ID=id59;Dbxref=GeneID:2703537;Note=a in vir3%3B c in wild-type;gbkey=variation;replace=a
+NC_001416.1	RefSeq	sequence_alteration	38007	38007	.	+	.	ID=id60;Dbxref=GeneID:2703537;Note=t in prm-uv8%3B c in wild-type;gbkey=variation;replace=t
+NC_001416.1	RefSeq	sequence_alteration	38009	38009	.	+	.	ID=id61;Dbxref=GeneID:2703537;Note=t in vc1%3B g in wild-type;gbkey=variation;replace=t
+NC_001416.1	RefSeq	gene	35798	37940	.	-	.	ID=gene58;Dbxref=GeneID:2703538;Name=lambdap51;gbkey=Gene;gene_biotype=other;locus_tag=lambdap51
+NC_001416.1	RefSeq	mRNA	35798	37940	.	-	.	ID=rna14;Parent=gene58;Dbxref=GeneID:2703538;gbkey=mRNA;product=mRNA-prm (via timm terminator)
+NC_001416.1	RefSeq	exon	35798	37940	.	-	.	ID=id62;Parent=rna14;Dbxref=GeneID:2703538;gbkey=mRNA;product=mRNA-prm (via timm terminator)
+NC_001416.1	RefSeq	gene	35798	36256	.	-	.	ID=gene59;Dbxref=GeneID:2703465;Name=lambdap52;gbkey=Gene;gene_biotype=other;locus_tag=lambdap52
+NC_001416.1	RefSeq	mRNA	35798	36256	.	-	.	ID=rna15;Parent=gene59;Dbxref=GeneID:2703465;gbkey=mRNA;product=mRNA-plit (via timm terminator)
+NC_001416.1	RefSeq	exon	35798	36256	.	-	.	ID=id63;Parent=rna15;Dbxref=GeneID:2703465;gbkey=mRNA;product=mRNA-plit (via timm terminator)
+NC_001416.1	RefSeq	gene	35825	36259	.	-	.	ID=gene60;Dbxref=GeneID:2703493;Name=rexb;gbkey=Gene;gene=rexb;gene_biotype=protein_coding;locus_tag=lambdap53
+NC_001416.1	RefSeq	CDS	35825	36259	.	-	0	ID=cds47;Parent=gene60;Dbxref=Genbank:NP_040626.1,GeneID:2703493;Name=NP_040626.1;gbkey=CDS;gene=rexb;product=exclusion protein;protein_id=NP_040626.1;transl_table=11
+NC_001416.1	RefSeq	sequence_alteration	35940	35940	.	+	.	ID=id64;Dbxref=GeneID:2703493;Note=a in rex209 %2C g in wild-type;gbkey=variation;gene=rexb;replace=a
+NC_001416.1	RefSeq	sequence_alteration	35947	35947	.	+	.	ID=id65;Dbxref=GeneID:2703493;Note=a in rex111 %2C g in wild-type;gbkey=variation;gene=rexb;replace=a
+NC_001416.1	RefSeq	gene	36275	37114	.	-	.	ID=gene61;Dbxref=GeneID:3827058;Name=rexa;gbkey=Gene;gene=rexa;gene_biotype=protein_coding;locus_tag=lambdap87
+NC_001416.1	RefSeq	CDS	36275	37114	.	-	0	ID=cds48;Parent=gene61;Dbxref=Genbank:NP_040627.1,GeneID:3827058;Name=NP_040627.1;gbkey=CDS;gene=rexa;product=exclusion protein;protein_id=NP_040627.1;transl_table=11
+NC_001416.1	RefSeq	gene	37227	37940	.	-	.	ID=gene62;Dbxref=GeneID:3827059;Name=cI;gbkey=Gene;gene=cI;gene_biotype=protein_coding;locus_tag=lambdap88
+NC_001416.1	RefSeq	CDS	37227	37940	.	-	0	ID=cds49;Parent=gene62;Dbxref=Genbank:NP_040628.1,GeneID:3827059;Name=NP_040628.1;gbkey=CDS;gene=cI;product=repressor;protein_id=NP_040628.1;transl_table=11
+NC_001416.1	RefSeq	sequence_alteration	37287	37287	.	+	.	ID=id66;Dbxref=GeneID:3827059;Note=a in cIam14%2C c in wild-type;gbkey=variation;gene=cI;replace=a
+NC_001416.1	RefSeq	sequence_alteration	37308	37308	.	+	.	ID=id67;Dbxref=GeneID:3827059;Note=c in cIam504%2C g in wild-type;gbkey=variation;gene=cI;replace=c
+NC_001416.1	RefSeq	sequence_alteration	37313	37313	.	+	.	ID=id68;Dbxref=GeneID:3827059;Note=a in cIam505%2C g in wild-type;gbkey=variation;gene=cI;replace=a
+NC_001416.1	RefSeq	sequence_alteration	37589	37589	.	+	.	ID=id69;Dbxref=GeneID:3827059;Note=t in ind1%3B c in wild-type;gbkey=variation;gene=cI;replace=t
+NC_001416.1	RefSeq	sequence_alteration	37629	37629	.	+	.	ID=id70;Dbxref=GeneID:3827059;Note=c in cIam499%3B g in wild-type;gbkey=variation;gene=cI;replace=c
+NC_001416.1	RefSeq	sequence_alteration	37635	37635	.	+	.	ID=id71;Dbxref=GeneID:3827059;Note=c in cIam212%2C a in wild-type;gbkey=variation;gene=cI;replace=c
+NC_001416.1	RefSeq	sequence_alteration	37680	37680	.	+	.	ID=id72;Dbxref=GeneID:3827059;Note=a in cIam34%3B c in wild-type;gbkey=variation;gene=cI;replace=a
+NC_001416.1	RefSeq	sequence_alteration	37742	37742	.	+	.	ID=id73;Dbxref=GeneID:3827059;Note=t in strain ci857s7([25])%3B c in wild-type;gbkey=variation;gene=cI;replace=t
+NC_001416.1	RefSeq	sequence_alteration	37808	37808	.	+	.	ID=id74;Dbxref=GeneID:3827059;Note=a in cIam282%3B g in wild-type;gbkey=variation;gene=cI;replace=a
+NC_001416.1	RefSeq	sequence_alteration	37872	37872	.	+	.	ID=id75;Dbxref=GeneID:3827059;Note=c in cIam302%3B a in wild-type;gbkey=variation;gene=cI;replace=c
+NC_001416.1	RefSeq	region	37951	37967	.	+	.	ID=id76;Note=operator-r3;gbkey=misc_signal
+NC_001416.1	RefSeq	region	37974	37990	.	+	.	ID=id77;Note=operator-r2;gbkey=misc_signal
+NC_001416.1	RefSeq	region	37998	38014	.	+	.	ID=id78;Note=operator-r1;gbkey=misc_signal
+NC_001416.1	RefSeq	gene	38023	40624	.	+	.	ID=gene63;Dbxref=GeneID:2703490;Name=lambdap54;gbkey=Gene;gene_biotype=other;locus_tag=lambdap54
+NC_001416.1	RefSeq	mRNA	38023	40624	.	+	.	ID=rna16;Parent=gene63;Dbxref=GeneID:2703490;gbkey=mRNA;product=mRNA-pr (alt.%3B via tr2 terminator)
+NC_001416.1	RefSeq	exon	38023	40624	.	+	.	ID=id79;Parent=rna16;Dbxref=GeneID:2703490;gbkey=mRNA;product=mRNA-pr (alt.%3B via tr2 terminator)
+NC_001416.1	RefSeq	gene	38023	38370	.	+	.	ID=gene64;Dbxref=GeneID:2703491;Name=lambdap55;gbkey=Gene;gene_biotype=other;locus_tag=lambdap55
+NC_001416.1	RefSeq	mRNA	38023	38370	.	+	.	ID=rna17;Parent=gene64;Dbxref=GeneID:2703491;gbkey=mRNA;product=mRNA-pr (alt.%3B via tr1c terminator)
+NC_001416.1	RefSeq	exon	38023	38370	.	+	.	ID=id80;Parent=rna17;Dbxref=GeneID:2703491;gbkey=mRNA;product=mRNA-pr (alt.%3B via tr1c terminator)
+NC_001416.1	RefSeq	sequence_alteration	38350	38350	.	+	.	ID=id81;Dbxref=GeneID:2703491;Note=g in cy3048%3B a in wild-type;gbkey=variation;replace=g
+NC_001416.1	RefSeq	sequence_alteration	38354	38354	.	+	.	ID=id82;Dbxref=GeneID:2703491;Note=c in cy2001%3B t in wild-type;gbkey=variation;replace=c
+NC_001416.1	RefSeq	sequence_alteration	38357	38357	.	+	.	ID=id83;Dbxref=GeneID:2703491;Note=t in cy3019%3B c in wild-type;gbkey=variation;replace=t
+NC_001416.1	RefSeq	gene	38023	38337	.	+	.	ID=gene65;Dbxref=GeneID:2703466;Name=lambdap56;gbkey=Gene;gene_biotype=other;locus_tag=lambdap56
+NC_001416.1	RefSeq	mRNA	38023	38337	.	+	.	ID=rna18;Parent=gene65;Dbxref=GeneID:2703466;gbkey=mRNA;product=mRNA-pr (alt.%3B via tr1b terminator)
+NC_001416.1	RefSeq	exon	38023	38337	.	+	.	ID=id84;Parent=rna18;Dbxref=GeneID:2703466;gbkey=mRNA;product=mRNA-pr (alt.%3B via tr1b terminator)
+NC_001416.1	RefSeq	gene	38023	38315	.	+	.	ID=gene66;Dbxref=GeneID:2703467;Name=cro;gbkey=Gene;gene=cro;gene_biotype=protein_coding;locus_tag=lambdap57
+NC_001416.1	RefSeq	mRNA	38023	38315	.	+	.	ID=rna19;Parent=gene66;Dbxref=GeneID:2703467;gbkey=mRNA;gene=cro;product=mRNA-pr (alt.%3B via tr1a terminator)
+NC_001416.1	RefSeq	exon	38023	38315	.	+	.	ID=id85;Parent=rna19;Dbxref=GeneID:2703467;gbkey=mRNA;gene=cro;product=mRNA-pr (alt.%3B via tr1a terminator)
+NC_001416.1	RefSeq	CDS	38041	38241	.	+	0	ID=cds50;Parent=rna19;Dbxref=Genbank:NP_040629.1,GeneID:2703467;Name=NP_040629.1;gbkey=CDS;gene=cro;product=antirepressor;protein_id=NP_040629.1;transl_table=11
+NC_001416.1	RefSeq	binding_site	38265	38281	.	+	.	ID=id86;Dbxref=GeneID:2703467;Note=N-utilization rightward%3B putative;bound_moiety=Nutr;gbkey=misc_binding;gene=cro
+NC_001416.1	RefSeq	sequence_feature	38249	38266	.	+	.	ID=id87;Dbxref=GeneID:2703467;Note=rho utilization site A (rutA);gbkey=misc_feature;gene=cro
+NC_001416.1	RefSeq	sequence_feature	38282	38301	.	+	.	ID=id88;Dbxref=GeneID:2703467;Note=rho utilization site B (rutB);gbkey=misc_feature;gene=cro
+NC_001416.1	RefSeq	sequence_alteration	38302	38302	.	+	.	ID=id89;Dbxref=GeneID:2703467;Note=a in cin-1%3B g in wild-type;gbkey=variation;gene=cro;replace=a
+NC_001416.1	RefSeq	sequence_alteration	38306	38306	.	+	.	ID=id90;Dbxref=GeneID:2703467;Note=c in cnc1%3B t in wild-type;gbkey=variation;gene=cro;replace=c
+NC_001416.1	RefSeq	sequence_alteration	38307	38307	.	+	.	ID=id91;Dbxref=GeneID:2703467;Note=g in cnc8%3B a in wild-type;gbkey=variation;gene=cro;replace=g
+NC_001416.1	RefSeq	gene	38023	38135	.	+	.	ID=gene67;Dbxref=GeneID:2703539;Name=lambdap58;gbkey=Gene;gene_biotype=other;locus_tag=lambdap58
+NC_001416.1	RefSeq	mRNA	38023	38135	.	+	.	ID=rna20;Parent=gene67;Dbxref=GeneID:2703539;gbkey=mRNA;product=mRNA-pr (alt.%3B via tr0 terminator)
+NC_001416.1	RefSeq	exon	38023	38135	.	+	.	ID=id92;Parent=rna20;Dbxref=GeneID:2703539;gbkey=mRNA;product=mRNA-pr (alt.%3B via tr0 terminator)
+NC_001416.1	RefSeq	gene	38360	38653	.	+	.	ID=gene68;Dbxref=GeneID:2703494;Name=cII;gbkey=Gene;gene=cII;gene_biotype=protein_coding;locus_tag=lambdap59
+NC_001416.1	RefSeq	CDS	38360	38653	.	+	0	ID=cds51;Parent=gene68;Dbxref=Genbank:NP_040630.1,GeneID:2703494;Name=NP_040630.1;gbkey=CDS;gene=cII;product=cII protein;protein_id=NP_040630.1;transl_table=11
+NC_001416.1	RefSeq	region	38543	38557	.	+	.	ID=id93;Dbxref=GeneID:2703494;Note=ice(inceptor signal for DNA replication);gbkey=misc_signal;gene=cII
+NC_001416.1	RefSeq	sequence_alteration	38364	38364	.	+	.	ID=id94;Dbxref=GeneID:2703494;Note=g in can1%3B t in wild-type;gbkey=variation;gene=cII;replace=g
+NC_001416.1	RefSeq	sequence_alteration	38370	38370	.	+	.	ID=id95;Dbxref=GeneID:2703494;Note=t in cy3003%3B c in wild-type;gbkey=variation;gene=cII;replace=t
+NC_001416.1	RefSeq	sequence_alteration	38371	38371	.	+	.	ID=id96;Dbxref=GeneID:2703494;Note=t in cy42%3B a in wild-type;gbkey=variation;gene=cII;replace=t
+NC_001416.1	RefSeq	sequence_alteration	38376	38376	.	+	.	ID=id97;Dbxref=GeneID:2703494;Note=g in cy844%3B a in wild-type;gbkey=variation;gene=cII;replace=g
+NC_001416.1	RefSeq	sequence_alteration	38379	38379	.	+	.	ID=id98;Dbxref=GeneID:2703494;Note=a in cy3008%3B g in wild-type;gbkey=variation;gene=cII;replace=a
+NC_001416.1	RefSeq	sequence_alteration	38380	38380	.	+	.	ID=id99;Dbxref=GeneID:2703494;Note=t in cy3001%3B c in wild-type;gbkey=variation;gene=cII;replace=t
+NC_001416.1	RefSeq	sequence_alteration	38430	38430	.	+	.	ID=id100;Dbxref=GeneID:2703494;Note=c in cII2002%3B t in wild-type;gbkey=variation;gene=cII;replace=c
+NC_001416.1	RefSeq	gene	38599	38675	.	-	.	ID=gene69;Dbxref=GeneID:2703492;Name=lambdap60;gbkey=Gene;gene_biotype=other;locus_tag=lambdap60
+NC_001416.1	RefSeq	mRNA	38599	38675	.	-	.	ID=rna21;Parent=gene69;Dbxref=GeneID:2703492;gbkey=mRNA;product=mRNA-oop transcription mRNA
+NC_001416.1	RefSeq	exon	38599	38675	.	-	.	ID=id101;Parent=rna21;Dbxref=GeneID:2703492;gbkey=mRNA;product=mRNA-oop transcription mRNA
+NC_001416.1	RefSeq	gene	38686	39585	.	+	.	ID=gene70;Dbxref=GeneID:3827060;Name=O;gbkey=Gene;gene=O;gene_biotype=protein_coding;locus_tag=lambdap89
+NC_001416.1	RefSeq	CDS	38686	39585	.	+	0	ID=cds52;Parent=gene70;Dbxref=Genbank:NP_040631.1,GeneID:3827060;Name=NP_040631.1;gbkey=CDS;gene=O;product=DNA replication protein;protein_id=NP_040631.1;transl_table=11
+NC_001416.1	RefSeq	binding_site	39034	39051	.	+	.	ID=id102;Dbxref=GeneID:3827060;bound_moiety=ori iteron 1(O;gbkey=misc_binding;gene=O
+NC_001416.1	RefSeq	binding_site	39054	39071	.	+	.	ID=id103;Dbxref=GeneID:3827060;bound_moiety=ori iteron 2(O;gbkey=misc_binding;gene=O
+NC_001416.1	RefSeq	binding_site	39078	39095	.	+	.	ID=id104;Dbxref=GeneID:3827060;bound_moiety=ori iteron 3(O;gbkey=misc_binding;gene=O
+NC_001416.1	RefSeq	binding_site	39101	39118	.	+	.	ID=id105;Dbxref=GeneID:3827060;bound_moiety=ori iteron 4(O;gbkey=misc_binding;gene=O
+NC_001416.1	RefSeq	recombination_region	39157	39158	.	+	.	ID=id106;Dbxref=GeneID:3827060;gbkey=misc_recomb;gene=O;organism=Bacteriophage lambda
+NC_001416.1	RefSeq	recombination_region	39165	39166	.	+	.	ID=id107;Dbxref=GeneID:3827060;gbkey=misc_recomb;gene=O;organism=Bacteriophage lambda
+NC_001416.1	RefSeq	sequence_alteration	39122	39122	.	+	.	ID=id108;Dbxref=GeneID:3827060;Note=a in ti-12%3B c in wild-type;gbkey=variation;gene=O;replace=a
+NC_001416.1	RefSeq	sequence_alteration	39268	39268	.	+	.	ID=id109;Dbxref=GeneID:3827060;Note=t in ric5b%3B c in wild-type;gbkey=variation;gene=O;replace=t
+NC_001416.1	RefSeq	sequence_alteration	39292	39292	.	+	.	ID=id110;Dbxref=GeneID:3827060;Note=a in ric5b%3B g in wild-type;gbkey=variation;gene=O;replace=a
+NC_001416.1	RefSeq	gene	39582	40283	.	+	.	ID=gene71;Dbxref=GeneID:2703495;Name=P;gbkey=Gene;gene=P;gene_biotype=protein_coding;locus_tag=lambdap61
+NC_001416.1	RefSeq	CDS	39582	40283	.	+	0	ID=cds53;Parent=gene71;Dbxref=Genbank:NP_040632.1,GeneID:2703495;Name=NP_040632.1;gbkey=CDS;gene=P;product=DNA replication protein;protein_id=NP_040632.1;transl_table=11
+NC_001416.1	RefSeq	gene	40280	40570	.	+	.	ID=gene72;Dbxref=GeneID:2703496;Name=ren;gbkey=Gene;gene=ren;gene_biotype=protein_coding;locus_tag=lambdap62
+NC_001416.1	RefSeq	CDS	40280	40570	.	+	0	ID=cds54;Parent=gene72;Dbxref=Genbank:NP_040633.1,GeneID:2703496;Name=NP_040633.1;gbkey=CDS;gene=ren;product=ren exclusion protein;protein_id=NP_040633.1;transl_table=11
+NC_001416.1	RefSeq	sequence_alteration	40501	43307	.	+	.	ID=id111;Note=Nin5 substitution;gbkey=variation
+NC_001416.1	RefSeq	gene	40644	41084	.	+	.	ID=gene73;Dbxref=GeneID:2703497;Name=NinB;gbkey=Gene;gene=NinB;gene_biotype=protein_coding;locus_tag=lambdap63
+NC_001416.1	RefSeq	CDS	40644	41084	.	+	0	ID=cds55;Parent=gene73;Dbxref=Genbank:NP_040634.1,GeneID:2703497;Name=NP_040634.1;gbkey=CDS;gene=NinB;product=NinB;protein_id=NP_040634.1;transl_table=11
+NC_001416.1	RefSeq	gene	41081	41953	.	+	.	ID=gene74;Dbxref=GeneID:2703498;Name=NinC;gbkey=Gene;gene=NinC;gene_biotype=protein_coding;locus_tag=lambdap64
+NC_001416.1	RefSeq	CDS	41081	41953	.	+	0	ID=cds56;Parent=gene74;Dbxref=Genbank:NP_040635.1,GeneID:2703498;Name=NP_040635.1;gbkey=CDS;gene=NinC;product=NinC protein;protein_id=NP_040635.1;transl_table=11
+NC_001416.1	RefSeq	gene	41950	42123	.	+	.	ID=gene75;Dbxref=GeneID:2703499;Name=NinD;gbkey=Gene;gene=NinD;gene_biotype=protein_coding;locus_tag=lambdap65
+NC_001416.1	RefSeq	CDS	41950	42123	.	+	0	ID=cds57;Parent=gene75;Dbxref=Genbank:NP_040636.1,GeneID:2703499;Name=NP_040636.1;gbkey=CDS;gene=NinD;product=NinD protein;protein_id=NP_040636.1;transl_table=11
+NC_001416.1	RefSeq	gene	42090	42272	.	+	.	ID=gene76;Dbxref=GeneID:2703500;Name=NinE;gbkey=Gene;gene=NinE;gene_biotype=protein_coding;locus_tag=lambdap66
+NC_001416.1	RefSeq	CDS	42090	42272	.	+	0	ID=cds58;Parent=gene76;Dbxref=Genbank:NP_040637.1,GeneID:2703500;Name=NP_040637.1;gbkey=CDS;gene=NinE;product=NinE protein;protein_id=NP_040637.1;transl_table=11
+NC_001416.1	RefSeq	gene	42269	42439	.	+	.	ID=gene77;Dbxref=GeneID:2703501;Name=NinF;gbkey=Gene;gene=NinF;gene_biotype=protein_coding;locus_tag=lambdap67
+NC_001416.1	RefSeq	CDS	42269	42439	.	+	0	ID=cds59;Parent=gene77;Dbxref=Genbank:NP_040638.1,GeneID:2703501;Name=NP_040638.1;gbkey=CDS;gene=NinF;product=NinF protein;protein_id=NP_040638.1;transl_table=11
+NC_001416.1	RefSeq	gene	42429	43043	.	+	.	ID=gene78;Dbxref=GeneID:2703474;Name=NinG;gbkey=Gene;gene=NinG;gene_biotype=protein_coding;locus_tag=lambdap68
+NC_001416.1	RefSeq	CDS	42429	43043	.	+	0	ID=cds60;Parent=gene78;Dbxref=Genbank:NP_040639.1,GeneID:2703474;Name=NP_040639.1;gbkey=CDS;gene=NinG;product=NinG protein;protein_id=NP_040639.1;transl_table=11
+NC_001416.1	RefSeq	gene	43040	43246	.	+	.	ID=gene79;Dbxref=GeneID:2703475;Name=NinH;gbkey=Gene;gene=NinH;gene_biotype=protein_coding;locus_tag=lambdap69
+NC_001416.1	RefSeq	CDS	43040	43246	.	+	0	ID=cds61;Parent=gene79;Dbxref=Genbank:NP_040640.1,GeneID:2703475;Name=NP_040640.1;gbkey=CDS;gene=NinH;product=NinH protein;protein_id=NP_040640.1;transl_table=11
+NC_001416.1	RefSeq	sequence_uncertainty	43082	43082	.	+	.	ID=id112;Dbxref=GeneID:2703475;Note=g or a%2C cited in [(in) Hendrix%2CR.W.%2C Roberts%2CJ.W.%2C Stahl%2CF.W. andWeisberg%2CR.A. (Eds.)%3BLambda II: 4];gbkey=unsure;gene=NinH;replace=a
+NC_001416.1	RefSeq	sequence_alteration	43082	43082	.	+	.	ID=id113;Dbxref=GeneID:2703475;Note=a in strain cI857s7 ([25])%3B g in wild-type;gbkey=variation;gene=NinH;replace=a
+NC_001416.1	RefSeq	gene	43224	43889	.	+	.	ID=gene80;Dbxref=GeneID:2703476;Name=NinI;gbkey=Gene;gene=NinI;gene_biotype=protein_coding;locus_tag=lambdap70
+NC_001416.1	RefSeq	CDS	43224	43889	.	+	0	ID=cds62;Parent=gene80;Dbxref=Genbank:NP_040641.1,GeneID:2703476;Name=NP_040641.1;gbkey=CDS;gene=NinI;product=NinI protein;protein_id=NP_040641.1;transl_table=11
+NC_001416.1	RefSeq	recombination_region	43884	43885	.	+	.	ID=id114;Dbxref=GeneID:2703476;gbkey=misc_recomb;gene=NinI;organism=Bacteriophage lambda
+NC_001416.1	RefSeq	gene	43886	44509	.	+	.	ID=gene81;Dbxref=GeneID:2703477;Name=Q;gbkey=Gene;gene=Q;gene_biotype=protein_coding;locus_tag=lambdap71
+NC_001416.1	RefSeq	CDS	43886	44509	.	+	0	ID=cds63;Parent=gene81;Dbxref=Genbank:NP_040642.1,GeneID:2703477;Name=NP_040642.1;gbkey=CDS;gene=Q;product=late gene regulator;protein_id=NP_040642.1;transl_table=11
+NC_001416.1	RefSeq	gene	44587	44780	.	+	.	ID=gene82;Dbxref=GeneID:2703521;Name=lambdap72;gbkey=Gene;gene_biotype=other;locus_tag=lambdap72
+NC_001416.1	RefSeq	mRNA	44587	44780	.	+	.	ID=rna22;Parent=gene82;Dbxref=GeneID:2703521;gbkey=mRNA;product=mRNA-pr' transcription (late genes) mRNA
+NC_001416.1	RefSeq	exon	44587	44780	.	+	.	ID=id115;Parent=rna22;Dbxref=GeneID:2703521;gbkey=mRNA;product=mRNA-pr' transcription (late genes) mRNA
+NC_001416.1	RefSeq	gene	44621	44815	.	+	.	ID=gene83;Dbxref=GeneID:2703478;Name=orf-64;gbkey=Gene;gene=orf-64;gene_biotype=protein_coding;locus_tag=lambdap73
+NC_001416.1	RefSeq	CDS	44621	44815	.	+	0	ID=cds64;Parent=gene83;Dbxref=Genbank:NP_040643.1,GeneID:2703478;Name=NP_040643.1;gbkey=CDS;gene=orf-64;product=hypothetical protein;protein_id=NP_040643.1;transl_table=11
+NC_001416.1	RefSeq	gene	45186	45509	.	+	.	ID=gene84;Dbxref=GeneID:2703479;Name=S;gbkey=Gene;gene=S;gene_biotype=protein_coding;locus_tag=lambdap74
+NC_001416.1	RefSeq	CDS	45186	45509	.	+	0	ID=cds65;Parent=gene84;Dbxref=Genbank:NP_040644.1,GeneID:2703479;Name=NP_040644.1;gbkey=CDS;gene=S;product=anti-holin;protein_id=NP_040644.1;transl_table=11
+NC_001416.1	RefSeq	gene	45192	45509	.	+	.	ID=gene85;Dbxref=GeneID:5740919;Name=S';gbkey=Gene;gene=S';gene_biotype=protein_coding;locus_tag=lambdap92
+NC_001416.1	RefSeq	CDS	45192	45509	.	+	0	ID=cds66;Parent=gene85;Dbxref=Genbank:YP_001551775.1,GeneID:5740919;Name=YP_001551775.1;gbkey=CDS;gene=S';product=holin;protein_id=YP_001551775.1;transl_table=11
+NC_001416.1	RefSeq	sequence_alteration	45352	45352	.	+	.	ID=id116;Dbxref=GeneID:5740919;Note=a in sam7%3B g in wild-type;gbkey=variation;gene=S';replace=a
+NC_001416.1	RefSeq	sequence_alteration	45352	45352	.	+	.	ID=id117;Dbxref=GeneID:5740919;Note=a in strain cI857s7 ([25])%3B g in wild-type;gbkey=variation;gene=S';replace=a
+NC_001416.1	RefSeq	gene	45493	45969	.	+	.	ID=gene86;Dbxref=GeneID:2703480;Name=R;gbkey=Gene;gene=R;gene_biotype=protein_coding;locus_tag=lambdap75
+NC_001416.1	RefSeq	CDS	45493	45969	.	+	0	ID=cds67;Parent=gene86;Dbxref=Genbank:NP_040645.1,GeneID:2703480;Name=NP_040645.1;gbkey=CDS;gene=R;product=endolysin;protein_id=NP_040645.1;transl_table=11
+NC_001416.1	RefSeq	gene	45966	46427	.	+	.	ID=gene87;Dbxref=GeneID:2703481;Name=Rz;gbkey=Gene;gene=Rz;gene_biotype=protein_coding;locus_tag=lambdap76
+NC_001416.1	RefSeq	CDS	45966	46427	.	+	0	ID=cds68;Parent=gene87;Dbxref=Genbank:NP_040646.1,GeneID:2703481;Name=NP_040646.1;gbkey=CDS;gene=Rz;product=cell lysis protein;protein_id=NP_040646.1;transl_table=11
+NC_001416.1	RefSeq	gene	46186	46368	.	+	.	ID=gene88;Dbxref=GeneID:5739319;Name=Rz1;gbkey=Gene;gene=Rz1;gene_biotype=protein_coding;locus_tag=lambdap91
+NC_001416.1	RefSeq	CDS	46186	46368	.	+	0	ID=cds69;Parent=gene88;Dbxref=Genbank:YP_001551744.1,GeneID:5739319;Name=YP_001551744.1;gbkey=CDS;gene=Rz1;product=Rz1 protein;protein_id=YP_001551744.1;transl_table=11
+NC_001416.1	RefSeq	gene	46459	46752	.	-	.	ID=gene89;Dbxref=GeneID:2703532;Name=bor;gbkey=Gene;gene=bor;gene_biotype=protein_coding;locus_tag=lambdap77
+NC_001416.1	RefSeq	CDS	46459	46752	.	-	0	ID=cds70;Parent=gene89;Dbxref=Genbank:NP_597780.1,GeneID:2703532;Name=NP_597780.1;gbkey=CDS;gene=bor;product=Bor protein precursor;protein_id=NP_597780.1;transl_table=11
+NC_001416.1	RefSeq	gene	47042	47575	.	-	.	ID=gene90;Dbxref=GeneID:2703533;Name=lambdap78;gbkey=Gene;gene_biotype=protein_coding;locus_tag=lambdap78
+NC_001416.1	RefSeq	CDS	47042	47575	.	-	0	ID=cds71;Parent=gene90;Dbxref=Genbank:NP_597781.1,GeneID:2703533;Name=NP_597781.1;gbkey=CDS;product=putative envelope protein;protein_id=NP_597781.1;transl_table=11
+NC_001416.1	RefSeq	gene	47738	47944	.	+	.	ID=gene91;Dbxref=GeneID:2703534;Name=lambdap79;gbkey=Gene;gene_biotype=protein_coding;locus_tag=lambdap79
+NC_001416.1	RefSeq	CDS	47738	47944	.	+	0	ID=cds72;Parent=gene91;Dbxref=Genbank:NP_597782.1,GeneID:2703534;Name=NP_597782.1;gbkey=CDS;product=hypothetical protein;protein_id=NP_597782.1;transl_table=11
+###
