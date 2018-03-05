@@ -1,3 +1,0 @@
-#!/bin/bash
-sudo chown ubuntu /home/researcher/public_html/
-sudo ln -s /home/researcher/public_html/ /home/ubuntu/web

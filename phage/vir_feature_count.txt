@@ -1,0 +1,5 @@
+# Feature	Class	Full Assembly	Assembly-unit accession	Assembly-unit name	Unique Ids	Placements
+CDS	with_protein	GCF_000840245.1	GCF_000840235.1	Primary assembly	73	73
+gene	other	GCF_000840245.1	GCF_000840235.1	Primary assembly	19	19
+gene	protein_coding	GCF_000840245.1	GCF_000840235.1	Primary assembly	73	73
+mRNA		GCF_000840245.1	GCF_000840235.1	Primary assembly	na	23
