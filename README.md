@@ -8,6 +8,7 @@ A list of example files to start using the Linux Command Line interface (CLI)
 
 ## History
 
+  * 2018-10-20   Added a "**misc**" subdirectory with examples taken from another training set
   * 2018-03-05   Package updated, "files" directory added
   * 2018-02-29   First release
 
@@ -55,3 +56,6 @@ A list of example files to start using the Linux Command Line interface (CLI)
 ./files/introduction.txt
 ./README.md
 ```
+
+### Other files
+The **misc√** directory contains its own README file and some subdirectories
