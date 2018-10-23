@@ -58,4 +58,4 @@ A list of example files to start using the Linux Command Line interface (CLI)
 ```
 
 ### Other files
-The **misc√** directory contains its own README file and some subdirectories
+The **misc** directory contains its own README file and some subdirectories
