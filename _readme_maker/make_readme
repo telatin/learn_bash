@@ -25,12 +25,13 @@ while (my $subdir = readdir $dir_content) {
 	next if (! -d "$rep_directory/$subdir" or $subdir=~/^[_\.]/);
 	$content .= "\n### $subdir\n";
 	opendir my $d, "$rep_directory/$subdir";
-	while (my $f = readdir $d) {
-		# skip hidden files and subdir
 		if (-e "$rep_directory/$subdir/.content") {
 		    my $dir_description = read_file("$rep_directory/$subdir/.content");
-		    $content.="\n*$dir_description\n";
+		    $content.="\n*$dir_description*\n\n";
 		}
+
+	while (my $f = readdir $d) {
+		# skip hidden files and subdir
 		next if (-d "$f" or $f=~/^\./);
 		$content.=" - $f\n";
 	}
