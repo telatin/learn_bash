@@ -1,0 +1,1 @@
+Common file formats, both binary (e.g. PNG image) and text files (e.g. CSV). A PDF document is included to see how `less` can also handle them.
