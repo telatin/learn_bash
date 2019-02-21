@@ -21,7 +21,7 @@ A list of example files to start using the Linux Command Line interface (CLI)
 ### phage
 
 *A set of files to test parsing of bioinformatics format, mostly related to PhiX phage.
-*
+ *
 
  - vir_assembly_stats.txt
  - vir_genomic.fna
@@ -44,7 +44,7 @@ A list of example files to start using the Linux Command Line interface (CLI)
 ### archives
 
 *Archives to test decompression tools
-*
+ *
 
  - archive.tar.gz
  - archive.zip
@@ -52,7 +52,7 @@ A list of example files to start using the Linux Command Line interface (CLI)
 ### misc
 
 *This is an extra subdirectory, it contains its own README file for details
-*
+ *
 
  - genbank
  - README.md
@@ -62,7 +62,7 @@ A list of example files to start using the Linux Command Line interface (CLI)
 ### files
 
 *Common file formats, both binary (e.g. PNG image) and text files (e.g. CSV). A PDF document is included to see how `less` can also handle them.
-*
+ *
 
  - R-package-edgeR.pdf
  - wine.csv
