@@ -27,6 +27,7 @@ while (my $subdir = readdir $dir_content) {
 	opendir my $d, "$rep_directory/$subdir";
 		if (-e "$rep_directory/$subdir/.content") {
 		    my $dir_description = read_file("$rep_directory/$subdir/.content");
+		    chomp($dir_description);
 		    $content.="\n*$dir_description *\n\n";
 		}
 
