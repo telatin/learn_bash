@@ -1,0 +1,44 @@
+#!/usr/bin/env perl
+
+# Generates "../README.md" based on history.txt and subdir contents
+# Each subdir can optionally have a ".content" file to describe the use of the files
+use v5.16;
+use File::Basename;
+use File::Slurp;
+use autodie;  
+
+my $script_directory = dirname($0);
+my $rep_directory    = "${script_directory}/..";
+my $template = read_file("${script_directory}/README.md.template");
+my $history = read_file("${script_directory}/history.txt");
+my $content = '';
+
+
+# Get history from the 'history.txt' file,
+# that should be independently markdown formatted
+$template =~s/{history.txt}/$history/;
+
+
+opendir my $dir_content, "$rep_directory";
+
+while (my $subdir = readdir $dir_content) {
+	next if (! -d "$rep_directory/$subdir" or $subdir=~/^[_\.]/);
+	$content .= "\n### $subdir\n";
+	opendir my $d, "$rep_directory/$subdir";
+	while (my $f = readdir $d) {
+		# skip hidden files and subdir
+		if (-e "$rep_directory/$subdir/.content") {
+		    my $dir_description = read_file("$rep_directory/$subdir/.content");
+		    $content.="\n*$dir_description\n";
+		}
+		next if (-d "$f" or $f=~/^\./);
+		$content.=" - $f\n";
+	}
+	closedir $d;	
+}
+
+$template=~s/{content}/$content/;
+
+open my $output, '>', "$rep_directory/README.md";
+say {$output} $template;
+
