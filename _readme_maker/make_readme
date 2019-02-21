@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+use utf8;
 
 # Generates "../README.md" based on history.txt and subdir contents
 # Each subdir can optionally have a ".content" file to describe the use of the files
@@ -23,7 +24,7 @@ opendir my $dir_content, "$rep_directory";
 
 while (my $subdir = readdir $dir_content) {
 	next if (! -d "$rep_directory/$subdir" or $subdir=~/^[_\.]/);
-	$content .= "\n### $subdir\n";
+	$content .= "\n### 📁$subdir\n";
 	opendir my $d, "$rep_directory/$subdir";
 		if (-e "$rep_directory/$subdir/.content") {
 		    my $dir_description = read_file("$rep_directory/$subdir/.content");
@@ -42,5 +43,6 @@ while (my $subdir = readdir $dir_content) {
 $template=~s/{content}/$content/;
 
 open my $output, '>', "$rep_directory/README.md";
+binmode $output, ":utf8";
 say {$output} $template;
 

@@ -18,7 +18,7 @@ A list of example files to start using the Linux Command Line interface (CLI). O
 ## Content
 
 
-### phage
+### 📁phage
 
 #### A set of files to test parsing of bioinformatics format, mostly related to PhiX phage.
 
@@ -40,14 +40,14 @@ A list of example files to start using the Linux Command Line interface (CLI). O
  - assembly_status.txt
  - vir_assembly_report.txt
 
-### archives
+### 📁archives
 
 #### Archives to test decompression tools
 
  - archive.tar.gz
  - archive.zip
 
-### misc
+### 📁misc
 
 #### This is an extra subdirectory, it contains its own README file for details
 
@@ -56,7 +56,7 @@ A list of example files to start using the Linux Command Line interface (CLI). O
  - test
  - ecoli
 
-### files
+### 📁files
 
 #### Common file formats, both binary (e.g. PNG image) and text files (e.g. CSV). A PDF document is included to see how `less` can also handle them.
 
@@ -68,7 +68,7 @@ A list of example files to start using the Linux Command Line interface (CLI). O
  - cars.csv
  - introduction.txt
 
-### scripts
+### 📁scripts
  - N50.pl
  - linkweb.sh
 
