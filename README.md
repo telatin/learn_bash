@@ -26,7 +26,7 @@ See the [Wiki](https://github.com/telatin/learn_bash/wiki) in this repository.
 
 
 
-### 📁 [misc](https://github.com/telatin/learn_bash/tree/master/misc)
+### 📁 [misc](https://github.com/telatin/learn_bash/tree/master/misc)  12M
 
 This is an extra subdirectory, it contains its own README file for details
 
@@ -36,7 +36,7 @@ This is an extra subdirectory, it contains its own README file for details
  -  📁  [test](https://github.com/telatin/learn_bash/blob/master/misc/test)
 
 
-### 📁 [archives](https://github.com/telatin/learn_bash/tree/master/archives)
+### 📁 [archives](https://github.com/telatin/learn_bash/tree/master/archives)  16K
 
 Archives to test decompression tools
 
@@ -44,13 +44,13 @@ Archives to test decompression tools
  -  [archive.zip](https://github.com/telatin/learn_bash/blob/master/archives/archive.zip)
 
 
-### 📁 [scripts](https://github.com/telatin/learn_bash/tree/master/scripts)
+### 📁 [scripts](https://github.com/telatin/learn_bash/tree/master/scripts)  20K
  -  [N50.pl](https://github.com/telatin/learn_bash/blob/master/scripts/N50.pl)
  -  [linkweb.sh](https://github.com/telatin/learn_bash/blob/master/scripts/linkweb.sh)
  -  [weather.pl](https://github.com/telatin/learn_bash/blob/master/scripts/weather.pl)
 
 
-### 📁 [phage](https://github.com/telatin/learn_bash/tree/master/phage)
+### 📁 [phage](https://github.com/telatin/learn_bash/tree/master/phage) 2.3M
 
 A set of files to test parsing of bioinformatics format, mostly related to PhiX phage.
 
@@ -75,7 +75,7 @@ A set of files to test parsing of bioinformatics format, mostly related to PhiX 
  -  [vir_translated_cds.faa](https://github.com/telatin/learn_bash/blob/master/phage/vir_translated_cds.faa)
 
 
-### 📁 [files](https://github.com/telatin/learn_bash/tree/master/files)
+### 📁 [files](https://github.com/telatin/learn_bash/tree/master/files) 3.5M
 
 Common file formats, both binary (e.g. PNG image) and text files (e.g. CSV). A PDF document is included to see how `less` can also handle them.
 
