@@ -8,6 +8,7 @@ A list of example files to start using the Linux Command Line interface (CLI). O
 
 ## History
 
+  * 2019-12-03   Refactoring the companion website (now using github wiki). 
   * 2019-02-20   Readme file generator added (_readme_maker/make_readme)
   * 2018-10-20   Added a "**misc**" subdirectory with examples taken from another training set
   * 2018-03-05   Package updated, "files" directory added
@@ -22,54 +23,58 @@ A list of example files to start using the Linux Command Line interface (CLI). O
 
 #### A set of files to test parsing of bioinformatics format, mostly related to PhiX phage.
 
- - vir_assembly_stats.txt
- - vir_genomic.fna
- - GCF_000840245.1_ViralProj14204
- - md5checksums.txt
  - vir_feature_table.txt
- - vir_genomic.gff
- - annotation_hashes.txt
- - vir_cds_from_genomic.fna
- - vir_protein.gpff
- - README.txt
+ - vir_rna_from_genomic.fna
  - vir_translated_cds.faa
  - vir_genomic.gbff
+ - README.txt
+ - vir_protein.gpff
+ - md5checksums.txt
+ - vir_genomic.gff
  - vir_feature_count.txt
- - vir_rna_from_genomic.fna
  - vir_protein.faa
- - assembly_status.txt
+ - annotation_hashes.txt
+ - GCF_000840245.1_ViralProj14204
+ - vir_cds_from_genomic.fna
  - vir_assembly_report.txt
-
-### 📁archives
-
-#### Archives to test decompression tools
-
- - archive.tar.gz
- - archive.zip
+ - assembly_status.txt
+ - vir_assembly_stats.txt
+ - vir_genomic.fna
 
 ### 📁misc
 
 #### This is an extra subdirectory, it contains its own README file for details
 
- - genbank
  - README.md
  - test
+ - genbank
  - ecoli
+
+### 📁archives
+
+#### Archives to test decompression tools
+
+ - archive.zip
+ - archive.tar.gz
+
+### 📁scripts
+ - linkweb.sh
+ - N50.pl
+ - weather.pl
 
 ### 📁files
 
 #### Common file formats, both binary (e.g. PNG image) and text files (e.g. CSV). A PDF document is included to see how `less` can also handle them.
 
- - R-package-edgeR.pdf
- - wine.csv
+ - introduction.txt
  - edgeR.url
  - Sample.pdf
- - Green_Ok_Icon.png
+ - R-package-edgeR.pdf
  - cars.csv
- - introduction.txt
-
-### 📁scripts
- - N50.pl
- - linkweb.sh
+ - putty.png
+ - Green_Ok_Icon.png
+ - wine.csv
+ - terminal.png
+ - tree.gif
 
 
