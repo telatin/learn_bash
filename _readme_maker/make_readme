@@ -24,7 +24,10 @@ opendir my $dir_content, "$rep_directory";
 
 while (my $subdir = readdir $dir_content) {
 	next if (! -d "$rep_directory/$subdir" or $subdir=~/^[_\.]/);
-	$content .= "\n\n\n### 📁 [$subdir](https://github.com/telatin/learn_bash/tree/master/$subdir)\n";
+	my $size = '';
+	$size .= `du -hs "$rep_directory/$subdir" | cut -f1`;
+	chomp($size);
+	$content .= "\n\n\n### 📁 [$subdir](https://github.com/telatin/learn_bash/tree/master/$subdir) $size\n";
 	opendir my $d, "$rep_directory/$subdir";
 		if (-e "$rep_directory/$subdir/.content") {
 		    my $dir_description = read_file("$rep_directory/$subdir/.content");
