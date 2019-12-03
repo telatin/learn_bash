@@ -10,11 +10,14 @@ See the [Wiki](https://github.com/telatin/learn_bash/wiki) in this repository.
 
 ## History
 
-  * 2019-12-03   Refactoring the companion website (now using github wiki). 
-  * 2019-02-20   Readme file generator added (_readme_maker/make_readme)
-  * 2018-10-20   Added a "**misc**" subdirectory with examples taken from another training set
-  * 2018-03-05   Package updated, "files" directory added
-  * 2018-02-29   First release
+| Date       | Description | 
+|------------|------------------|
+| 2019-12-04 |  Added FASTQ files |
+| 2019-12-03 |  Refactoring the companion website (now using github wiki). |
+| 2019-02-20 |  Readme file generator added (_readme_maker/make_readme) | 
+| 2018-10-20 |  Added a "**misc**" subdirectory with examples taken from another training set| 
+| 2018-03-05 |  Package updated, "files" directory added |
+| 2018-02-29 |  First release|
 
 
 
@@ -26,6 +29,7 @@ See the [Wiki](https://github.com/telatin/learn_bash/wiki) in this repository.
 #### A set of files to test parsing of bioinformatics format, mostly related to PhiX phage.
 
  - vir_feature_table.txt
+ - vir_reads1.fq
  - vir_rna_from_genomic.fna
  - vir_translated_cds.faa
  - vir_genomic.gbff
@@ -37,6 +41,7 @@ See the [Wiki](https://github.com/telatin/learn_bash/wiki) in this repository.
  - vir_protein.faa
  - annotation_hashes.txt
  - GCF_000840245.1_ViralProj14204
+ - vir_reads2.fq
  - vir_cds_from_genomic.fna
  - vir_assembly_report.txt
  - assembly_status.txt
@@ -69,6 +74,7 @@ See the [Wiki](https://github.com/telatin/learn_bash/wiki) in this repository.
 #### Common file formats, both binary (e.g. PNG image) and text files (e.g. CSV). A PDF document is included to see how `less` can also handle them.
 
  - introduction.txt
+ - wine.tsv
  - edgeR.url
  - Sample.pdf
  - R-package-edgeR.pdf
@@ -76,7 +82,9 @@ See the [Wiki](https://github.com/telatin/learn_bash/wiki) in this repository.
  - putty.png
  - Green_Ok_Icon.png
  - wine.csv
+ - Sample1_R1.fastq.gz
  - terminal.png
  - tree.gif
+ - Sample1_R2.fastq.gz
 
 
