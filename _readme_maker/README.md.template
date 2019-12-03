@@ -1,5 +1,8 @@
 # Bioinformatics and the Linux Terminal
 
+## Bash tutorial
+
+See the [Wiki](https://github.com/telatin/learn_bash/wiki) in this repository.
 
 ## What it is
 
