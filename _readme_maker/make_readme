@@ -24,20 +24,24 @@ opendir my $dir_content, "$rep_directory";
 
 while (my $subdir = readdir $dir_content) {
 	next if (! -d "$rep_directory/$subdir" or $subdir=~/^[_\.]/);
-	$content .= "\n### 📁 [$subdir](https://github.com/telatin/learn_bash/tree/master/$subdir)\n";
+	$content .= "\n\n\n### 📁 [$subdir](https://github.com/telatin/learn_bash/tree/master/$subdir)\n";
 	opendir my $d, "$rep_directory/$subdir";
 		if (-e "$rep_directory/$subdir/.content") {
 		    my $dir_description = read_file("$rep_directory/$subdir/.content");
 		    chomp($dir_description);
-		    $content.="\n#### $dir_description\n\n";
+		    $content.="\n$dir_description\n\n";
 		}
-
+	my @files = ();
 	while (my $f = readdir $d) {
 		# skip hidden files and subdir
-		next if (-d "$f" or $f=~/^\./);
-		$content.=" - [$f](https://github.com/telatin/learn_bash/blob/master/$subdir/$f)\n";
+		next if ($f=~/^\./);
+		my $dir = '';
+		$dir = ' 📁 ' if (-d "$subdir/$f");
+		push(@files, " - $dir [$f](https://github.com/telatin/learn_bash/blob/master/$subdir/$f)");
+		#$content.=" - $dir [$f](https://github.com/telatin/learn_bash/blob/master/$subdir/$f)\n";
 	}
-	closedir $d;	
+	closedir $d;
+	$content .= join( "\n", sort @files);	
 }
 
 $template=~s/{content}/$content/;
