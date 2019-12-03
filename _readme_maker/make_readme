@@ -24,7 +24,7 @@ opendir my $dir_content, "$rep_directory";
 
 while (my $subdir = readdir $dir_content) {
 	next if (! -d "$rep_directory/$subdir" or $subdir=~/^[_\.]/);
-	$content .= "\n### 📁$subdir\n";
+	$content .= "\n### 📁 [$subdir](https://github.com/telatin/learn_bash/tree/master/$subdir)\n";
 	opendir my $d, "$rep_directory/$subdir";
 		if (-e "$rep_directory/$subdir/.content") {
 		    my $dir_description = read_file("$rep_directory/$subdir/.content");
@@ -35,7 +35,7 @@ while (my $subdir = readdir $dir_content) {
 	while (my $f = readdir $d) {
 		# skip hidden files and subdir
 		next if (-d "$f" or $f=~/^\./);
-		$content.=" - $f\n";
+		$content.=" - [$f](https://github.com/telatin/learn_bash/blob/master/$subdir/$f)\n";
 	}
 	closedir $d;	
 }
