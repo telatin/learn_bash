@@ -3,12 +3,12 @@
 A list of example files to start using the Linux Command Line interface (CLI). 
 Originally prepared for [Bash for Bioinformatics](https://seq.space/notes/doku.php?id=bash-beginners) training
 
-## Bash tutorial
+## :book: Bash tutorial
 
 See the [Wiki](https://github.com/telatin/learn_bash/wiki) in this repository.
 
 
-## History
+## :calendar: History
 
 | Date       | Description | 
 |------------|------------------|
@@ -21,7 +21,7 @@ See the [Wiki](https://github.com/telatin/learn_bash/wiki) in this repository.
 
 
 
-## Files in the repository
+## :briefcase: Files in the repository
 
 
 
