@@ -3,7 +3,7 @@
 A list of example files to start using the Linux Command Line interface (CLI). 
 Originally prepared for [Bash for Bioinformatics](https://seq.space/notes/doku.php?id=bash-beginners) training
 
-## :book: Bash tutorial
+## Bash tutorial
 
 See the [Wiki](https://github.com/telatin/learn_bash/wiki) in this repository.
 
@@ -12,8 +12,8 @@ See the [Wiki](https://github.com/telatin/learn_bash/wiki) in this repository.
 
 | Date       | Description | 
 |------------|------------------|
-| 2019-12-04 |  Added FASTQ files |
-| 2019-12-03 |  Refactoring the companion website (now using github wiki). |
+| 2019-12-04 |  Added FASTQ files, Updated README maker with links |
+| 2019-12-03 |  Refactoring the companion website (now using [github wiki](https://github.com/telatin/learn_bash/wiki)). |
 | 2019-02-20 |  Readme file generator added (_readme_maker/make_readme) | 
 | 2018-10-20 |  Added a "**misc**" subdirectory with examples taken from another training set| 
 | 2018-03-05 |  Package updated, "files" directory added |
@@ -26,31 +26,7 @@ See the [Wiki](https://github.com/telatin/learn_bash/wiki) in this repository.
 
 
 
-### 📁 [misc](https://github.com/telatin/learn_bash/tree/master/misc)  12M
-
-This is an extra subdirectory, it contains its own README file for details
-
- -  [README.md](https://github.com/telatin/learn_bash/blob/master/misc/README.md)
- -  📁  [ecoli](https://github.com/telatin/learn_bash/blob/master/misc/ecoli)
- -  📁  [genbank](https://github.com/telatin/learn_bash/blob/master/misc/genbank)
- -  📁  [test](https://github.com/telatin/learn_bash/blob/master/misc/test)
-
-
-### 📁 [archives](https://github.com/telatin/learn_bash/tree/master/archives)  16K
-
-Archives to test decompression tools
-
- -  [archive.tar.gz](https://github.com/telatin/learn_bash/blob/master/archives/archive.tar.gz)
- -  [archive.zip](https://github.com/telatin/learn_bash/blob/master/archives/archive.zip)
-
-
-### 📁 [scripts](https://github.com/telatin/learn_bash/tree/master/scripts)  20K
- -  [N50.pl](https://github.com/telatin/learn_bash/blob/master/scripts/N50.pl)
- -  [linkweb.sh](https://github.com/telatin/learn_bash/blob/master/scripts/linkweb.sh)
- -  [weather.pl](https://github.com/telatin/learn_bash/blob/master/scripts/weather.pl)
-
-
-### 📁 [phage](https://github.com/telatin/learn_bash/tree/master/phage) 2.3M
+### 📁 [phage](https://github.com/telatin/learn_bash/tree/master/phage) 2.4M
 
 A set of files to test parsing of bioinformatics format, mostly related to PhiX phage.
 
@@ -75,7 +51,31 @@ A set of files to test parsing of bioinformatics format, mostly related to PhiX 
  -  [vir_translated_cds.faa](https://github.com/telatin/learn_bash/blob/master/phage/vir_translated_cds.faa)
 
 
-### 📁 [files](https://github.com/telatin/learn_bash/tree/master/files) 3.5M
+### 📁 [misc](https://github.com/telatin/learn_bash/tree/master/misc) 11M
+
+This is an extra subdirectory, it contains its own README file for details
+
+ -  [README.md](https://github.com/telatin/learn_bash/blob/master/misc/README.md)
+ -  📁  [ecoli](https://github.com/telatin/learn_bash/blob/master/misc/ecoli)
+ -  📁  [genbank](https://github.com/telatin/learn_bash/blob/master/misc/genbank)
+ -  📁  [test](https://github.com/telatin/learn_bash/blob/master/misc/test)
+
+
+### 📁 [archives](https://github.com/telatin/learn_bash/tree/master/archives) 20K
+
+Archives to test decompression tools
+
+ -  [archive.tar.gz](https://github.com/telatin/learn_bash/blob/master/archives/archive.tar.gz)
+ -  [archive.zip](https://github.com/telatin/learn_bash/blob/master/archives/archive.zip)
+
+
+### 📁 [scripts](https://github.com/telatin/learn_bash/tree/master/scripts) 24K
+ -  [N50.pl](https://github.com/telatin/learn_bash/blob/master/scripts/N50.pl)
+ -  [linkweb.sh](https://github.com/telatin/learn_bash/blob/master/scripts/linkweb.sh)
+ -  [weather.pl](https://github.com/telatin/learn_bash/blob/master/scripts/weather.pl)
+
+
+### 📁 [files](https://github.com/telatin/learn_bash/tree/master/files) 3.6M
 
 Common file formats, both binary (e.g. PNG image) and text files (e.g. CSV). A PDF document is included to see how `less` can also handle them.
 
