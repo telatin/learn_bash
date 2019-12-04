@@ -14,6 +14,8 @@ my $template = read_file("${script_directory}/README.md.template");
 my $history = read_file("${script_directory}/history.txt");
 my $content = '';
 
+say STDERR "Loaded template: ", length($template), ' chars';
+say STDERR "Loaded history: ", length($history), ' chars';
 
 # Get history from the 'history.txt' file,
 # that should be independently markdown formatted
@@ -24,6 +26,7 @@ opendir my $dir_content, "$rep_directory";
 
 while (my $subdir = readdir $dir_content) {
 	next if (! -d "$rep_directory/$subdir" or $subdir=~/^[_\.]/);
+	say STDERR " * Parsing $subdir";
 	my $size = '';
 	$size .= `du -hs "$rep_directory/$subdir" | cut -f1`;
 	chomp($size);
