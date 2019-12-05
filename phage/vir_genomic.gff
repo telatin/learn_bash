@@ -6,7 +6,7 @@
 ##sequence-region NC_001416.1 1 48502
 ##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=10710
 NC_001416.1	RefSeq	region	1	48502	.	+	.	ID=id0;Dbxref=taxon:10710;gbkey=Src;genome=genomic;mol_type=genomic DNA;nat-host=Escherichia coli;old-name=Bacteriophage lambda
-NC_001416.1	RefSeq	gene	191	736	.	+	.	ID=gene0;Dbxref=GeneID:2703523;Name=nu1;gbkey=Gene;gene=nu1;gene_biotype=protein_coding;locus_tag=lambdap01
+NC_001416.1	RefSeq	gene	191	736	.	+	.	ID=gene0#;Dbxref=GeneID:2703523;Name=nu1;gbkey=Gene;gene=nu1;gene_biotype=protein_coding;locus_tag=lambdap01
 NC_001416.1	RefSeq	CDS	191	736	.	+	0	ID=cds0;Parent=gene0;Dbxref=Genbank:NP_040580.1,GeneID:2703523;Name=NP_040580.1;gbkey=CDS;gene=nu1;product=DNA packaging protein;protein_id=NP_040580.1;transl_table=11
 NC_001416.1	RefSeq	gene	711	2636	.	+	.	ID=gene1;Dbxref=GeneID:2703524;Name=A;gbkey=Gene;gene=A;gene_biotype=protein_coding;locus_tag=lambdap02
 NC_001416.1	RefSeq	CDS	711	2636	.	+	0	ID=cds1;Parent=gene1;Dbxref=Genbank:NP_040581.1,GeneID:2703524;Name=NP_040581.1;gbkey=CDS;gene=A;product=DNA packaging protein;protein_id=NP_040581.1;transl_table=11
