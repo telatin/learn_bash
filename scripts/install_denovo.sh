@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 set -e
-command -v conda || echo "ERROR: Miniconda is needed for this script to work." && exit 2
 
 echo -e " \e[1mInstalling packages for the \"de novo\" tutorial\e[0m"
 
