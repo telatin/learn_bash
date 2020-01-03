@@ -1,5 +1,10 @@
 #!/bin/bash
 
+if [ ! -d /home/researcher/public_html ]; then
+   echo "This script is designed for training using the MRC CLIMB infrastructure (GVL image)"
+   exit 1
+fi
+
 if [[ -e /home/ubuntu/web ]]
 then
 	echo "Link already found: ~/web"
