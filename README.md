@@ -26,17 +26,7 @@ See the [Wiki](https://github.com/telatin/learn_bash/wiki) in this repository.
 
 
 
-### 📁 [misc](https://github.com/telatin/learn_bash/tree/master/misc)  12M
-
-This is an extra subdirectory, it contains its own README file for details
-
- -  [README.md](https://github.com/telatin/learn_bash/blob/master/misc/README.md)
- -  📁  [ecoli](https://github.com/telatin/learn_bash/blob/master/misc/ecoli)
- -  📁  [genbank](https://github.com/telatin/learn_bash/blob/master/misc/genbank)
- -  📁  [test](https://github.com/telatin/learn_bash/blob/master/misc/test)
-
-
-### 📁 [archives](https://github.com/telatin/learn_bash/tree/master/archives)  16K
+### 📁 [archives](https://github.com/telatin/learn_bash/tree/master/archives) 20K
 
 Archives to test decompression tools
 
@@ -44,14 +34,7 @@ Archives to test decompression tools
  -  [archive.zip](https://github.com/telatin/learn_bash/blob/master/archives/archive.zip)
 
 
-### 📁 [scripts](https://github.com/telatin/learn_bash/tree/master/scripts)  24K
- -  [N50.pl](https://github.com/telatin/learn_bash/blob/master/scripts/N50.pl)
- -  [install_denovo.sh](https://github.com/telatin/learn_bash/blob/master/scripts/install_denovo.sh)
- -  [linkweb.sh](https://github.com/telatin/learn_bash/blob/master/scripts/linkweb.sh)
- -  [weather.pl](https://github.com/telatin/learn_bash/blob/master/scripts/weather.pl)
-
-
-### 📁 [phage](https://github.com/telatin/learn_bash/tree/master/phage) 2.3M
+### 📁 [phage](https://github.com/telatin/learn_bash/tree/master/phage) 4.6M
 
 A set of files to test parsing of bioinformatics format, mostly related to PhiX phage.
 
@@ -65,26 +48,46 @@ A set of files to test parsing of bioinformatics format, mostly related to PhiX 
  -  [vir_cds_from_genomic.fna](https://github.com/telatin/learn_bash/blob/master/phage/vir_cds_from_genomic.fna)
  -  [vir_feature_count.txt](https://github.com/telatin/learn_bash/blob/master/phage/vir_feature_count.txt)
  -  [vir_feature_table.txt](https://github.com/telatin/learn_bash/blob/master/phage/vir_feature_table.txt)
+ -  [vir_genomic.fna.amb](https://github.com/telatin/learn_bash/blob/master/phage/vir_genomic.fna.amb)
+ -  [vir_genomic.fna.ann](https://github.com/telatin/learn_bash/blob/master/phage/vir_genomic.fna.ann)
+ -  [vir_genomic.fna.bwt](https://github.com/telatin/learn_bash/blob/master/phage/vir_genomic.fna.bwt)
+ -  [vir_genomic.fna.fai](https://github.com/telatin/learn_bash/blob/master/phage/vir_genomic.fna.fai)
+ -  [vir_genomic.fna.pac](https://github.com/telatin/learn_bash/blob/master/phage/vir_genomic.fna.pac)
+ -  [vir_genomic.fna.sa](https://github.com/telatin/learn_bash/blob/master/phage/vir_genomic.fna.sa)
  -  [vir_genomic.fna](https://github.com/telatin/learn_bash/blob/master/phage/vir_genomic.fna)
  -  [vir_genomic.gbff](https://github.com/telatin/learn_bash/blob/master/phage/vir_genomic.gbff)
  -  [vir_genomic.gff](https://github.com/telatin/learn_bash/blob/master/phage/vir_genomic.gff)
  -  [vir_protein.faa](https://github.com/telatin/learn_bash/blob/master/phage/vir_protein.faa)
  -  [vir_protein.gpff](https://github.com/telatin/learn_bash/blob/master/phage/vir_protein.gpff)
- -  [vir_reads1.fq](https://github.com/telatin/learn_bash/blob/master/phage/vir_reads1.fq)
- -  [vir_reads2.fq](https://github.com/telatin/learn_bash/blob/master/phage/vir_reads2.fq)
  -  [vir_rna_from_genomic.fna](https://github.com/telatin/learn_bash/blob/master/phage/vir_rna_from_genomic.fna)
  -  [vir_translated_cds.faa](https://github.com/telatin/learn_bash/blob/master/phage/vir_translated_cds.faa)
+ -  📁  [reads](https://github.com/telatin/learn_bash/blob/master/phage/reads)
 
 
-### 📁 [files](https://github.com/telatin/learn_bash/tree/master/files) 3.5M
+### 📁 [misc](https://github.com/telatin/learn_bash/tree/master/misc) 11M
+
+This is an extra subdirectory, it contains its own README file for details
+
+ -  [README.md](https://github.com/telatin/learn_bash/blob/master/misc/README.md)
+ -  📁  [ecoli](https://github.com/telatin/learn_bash/blob/master/misc/ecoli)
+ -  📁  [genbank](https://github.com/telatin/learn_bash/blob/master/misc/genbank)
+ -  📁  [test](https://github.com/telatin/learn_bash/blob/master/misc/test)
+
+
+### 📁 [scripts](https://github.com/telatin/learn_bash/tree/master/scripts) 28K
+ -  [N50.pl](https://github.com/telatin/learn_bash/blob/master/scripts/N50.pl)
+ -  [install_denovo.sh](https://github.com/telatin/learn_bash/blob/master/scripts/install_denovo.sh)
+ -  [linkweb.sh](https://github.com/telatin/learn_bash/blob/master/scripts/linkweb.sh)
+ -  [weather.pl](https://github.com/telatin/learn_bash/blob/master/scripts/weather.pl)
+
+
+### 📁 [files](https://github.com/telatin/learn_bash/tree/master/files) 1.7M
 
 Common file formats, both binary (e.g. PNG image) and text files (e.g. CSV). A PDF document is included to see how `less` can also handle them.
 
  -  [Green_Ok_Icon.png](https://github.com/telatin/learn_bash/blob/master/files/Green_Ok_Icon.png)
  -  [R-package-edgeR.pdf](https://github.com/telatin/learn_bash/blob/master/files/R-package-edgeR.pdf)
  -  [Sample.pdf](https://github.com/telatin/learn_bash/blob/master/files/Sample.pdf)
- -  [Sample1_R1.fastq.gz](https://github.com/telatin/learn_bash/blob/master/files/Sample1_R1.fastq.gz)
- -  [Sample1_R2.fastq.gz](https://github.com/telatin/learn_bash/blob/master/files/Sample1_R2.fastq.gz)
  -  [cars.csv](https://github.com/telatin/learn_bash/blob/master/files/cars.csv)
  -  [edgeR.url](https://github.com/telatin/learn_bash/blob/master/files/edgeR.url)
  -  [introduction.txt](https://github.com/telatin/learn_bash/blob/master/files/introduction.txt)
