@@ -44,10 +44,6 @@ Archives to test decompression tools
  -  [archive.zip](https://github.com/telatin/learn_bash/blob/master/archives/archive.zip)
 
 
-### 📁 [denovo](https://github.com/telatin/learn_bash/tree/master/denovo) 303M
- -  📁  [phage](https://github.com/telatin/learn_bash/blob/master/denovo/phage)
-
-
 ### 📁 [scripts](https://github.com/telatin/learn_bash/tree/master/scripts)  24K
  -  [N50.pl](https://github.com/telatin/learn_bash/blob/master/scripts/N50.pl)
  -  [install_denovo.sh](https://github.com/telatin/learn_bash/blob/master/scripts/install_denovo.sh)
