@@ -1,18 +1,18 @@
 # Bioinformatics and the Linux Terminal
 
 A list of example files to start using the Linux Command Line interface (CLI). 
-Originally prepared for [Bash for Bioinformatics](https://seq.space/notes/doku.php?id=bash-beginners) training
 
 ## :book: Bash tutorial
 
-See the [Wiki](https://github.com/telatin/learn_bash/wiki) in this repository.
+See the **[Wiki pages](https://github.com/telatin/learn_bash/wiki)** in this repository.
 
 
 ## :calendar: History
 
 | Date       | Description | 
 |------------|------------------|
-| 2020-08-12 |  Added a 'reads' directory with three lambda phage shotguns; CLIMB Training |
+| 2020-08-12 |  Added a 'reads' directory with three lambda phage shotguns; [CLIMB 
+Training](https://github.com/telatin/learn_bash/wiki/CLIMB) |
 | 2019-12-04 |  Added FASTQ files, Updated README maker with links |
 | 2019-12-03 |  Refactoring the companion website (now using [github wiki](https://github.com/telatin/learn_bash/wiki)). |
 | 2019-02-20 |  Readme file generator added (_readme_maker/make_readme) | 
@@ -96,4 +96,9 @@ Common file formats, both binary (e.g. PNG image) and text files (e.g. CSV). A P
  -  [tree.gif](https://github.com/telatin/learn_bash/blob/master/files/tree.gif)
  -  [wine.csv](https://github.com/telatin/learn_bash/blob/master/files/wine.csv)
  -  [wine.tsv](https://github.com/telatin/learn_bash/blob/master/files/wine.tsv)
+
+
+## Notes
+ - Originally prepared for [Bash for 
+Bioinformatics](https://seq.space/notes/doku.php?id=bash-beginners) training
 
