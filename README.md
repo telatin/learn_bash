@@ -11,8 +11,7 @@ See the **[Wiki pages](https://github.com/telatin/learn_bash/wiki)** in this rep
 
 | Date       | Description | 
 |------------|------------------|
-| 2020-08-12 |  Added a 'reads' directory with three lambda phage shotguns; [CLIMB 
-Training](https://github.com/telatin/learn_bash/wiki/CLIMB) |
+| 2020-08-12 |  Added a 'reads' directory with three lambda phage shotguns; [CLIMB Training](https://github.com/telatin/learn_bash/wiki/CLIMB) |
 | 2019-12-04 |  Added FASTQ files, Updated README maker with links |
 | 2019-12-03 |  Refactoring the companion website (now using [github wiki](https://github.com/telatin/learn_bash/wiki)). |
 | 2019-02-20 |  Readme file generator added (_readme_maker/make_readme) | 
