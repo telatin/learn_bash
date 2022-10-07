@@ -8,7 +8,7 @@ fi
 if [[ -e /home/ubuntu/web ]]
 then
 	echo "Link already found: ~/web"
-	exit
+	exit 0
 fi
 
 if [[ -d /home/researcher/public_html/ ]]
