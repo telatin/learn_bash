@@ -1,17 +1,18 @@
 # Bioinformatics and the Linux Terminal
 
 A list of example files to start using the Linux Command Line interface (CLI). 
+Originally prepared for [Bash for Bioinformatics](https://seq.space/notes/doku.php?id=bash-beginners) training
 
 ## :book: Bash tutorial
 
-See the **[Wiki pages](https://github.com/telatin/learn_bash/wiki)** in this repository.
+See the [Wiki](https://github.com/telatin/learn_bash/wiki) in this repository.
 
 
 ## :calendar: History
 
 | Date       | Description | 
 |------------|------------------|
-| 2020-08-12 |  Added a 'reads' directory with three lambda phage shotguns; [CLIMB Training](https://github.com/telatin/learn_bash/wiki/CLIMB) |
+| 2022-10-01 |  Cleanup and updates (removed legacy files, added scripts) |
 | 2019-12-04 |  Added FASTQ files, Updated README maker with links |
 | 2019-12-03 |  Refactoring the companion website (now using [github wiki](https://github.com/telatin/learn_bash/wiki)). |
 | 2019-02-20 |  Readme file generator added (_readme_maker/make_readme) | 
@@ -26,7 +27,11 @@ See the **[Wiki pages](https://github.com/telatin/learn_bash/wiki)** in this rep
 
 
 
-### 📁 [misc](https://github.com/telatin/learn_bash/tree/master/misc)  11M
+### 📁 [caz](https://github.com/telatin/learn_bash/tree/master/caz)   0B
+
+
+
+### 📁 [misc](https://github.com/telatin/learn_bash/tree/master/misc) 7.4M
 
 This is an extra subdirectory, it contains its own README file for details
 
@@ -46,9 +51,9 @@ Archives to test decompression tools
 
 ### 📁 [scripts](https://github.com/telatin/learn_bash/tree/master/scripts)  24K
  -  [N50.pl](https://github.com/telatin/learn_bash/blob/master/scripts/N50.pl)
- -  [install_denovo.sh](https://github.com/telatin/learn_bash/blob/master/scripts/install_denovo.sh)
+ -  [fasta_translate.py](https://github.com/telatin/learn_bash/blob/master/scripts/fasta_translate.py)
  -  [linkweb.sh](https://github.com/telatin/learn_bash/blob/master/scripts/linkweb.sh)
- -  [weather.pl](https://github.com/telatin/learn_bash/blob/master/scripts/weather.pl)
+ -  [start_denovo.sh](https://github.com/telatin/learn_bash/blob/master/scripts/start_denovo.sh)
 
 
 ### 📁 [phage](https://github.com/telatin/learn_bash/tree/master/phage) 4.5M
@@ -91,9 +96,4 @@ Common file formats, both binary (e.g. PNG image) and text files (e.g. CSV). A P
  -  [tree.gif](https://github.com/telatin/learn_bash/blob/master/files/tree.gif)
  -  [wine.csv](https://github.com/telatin/learn_bash/blob/master/files/wine.csv)
  -  [wine.tsv](https://github.com/telatin/learn_bash/blob/master/files/wine.tsv)
-
-
-## Notes
- - Originally prepared for [Bash for 
-Bioinformatics](https://seq.space/notes/doku.php?id=bash-beginners) training
 
