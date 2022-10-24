@@ -7,7 +7,7 @@ but keeping the original data structure
 
 import logging
 
-def lines(file, from_line="***START OF", to_line="***END OF"):
+def lines(file, from_line="", to_line=""):
     """
     Iterator on file lines (stripped from newlines):
     Given a text file will return all the lines between line starting with
@@ -66,8 +66,8 @@ if __name__ == "__main__":
     args.add_argument("-m", "--max", help="Max files to process, 0 for all [default: %(default)s]", type=int, default=1000)
     args.add_argument("-p", "--max-plot", help="Max files to plot, 0 for all [default: %(default)s]", type=int, default=20)
     
-    args.add_argument("--start", help="Start of the manuscript [default: %(default)s]", default="***START OF")
-    args.add_argument("--end", help="End of the manuscript [default: %(default)s]", default="***END OF")
+    args.add_argument("--start", help="Start of the manuscript [default: %(default)s]", default="*** START OF")
+    args.add_argument("--end", help="End of the manuscript [default: %(default)s]", default="*** END OF")
     args.add_argument("--verbose", help="Verbose output", action="store_true")
     args.add_argument("--debug", help="Debug output", action="store_true")
     args = args.parse_args()
