@@ -27,12 +27,11 @@ See the [Wiki](https://github.com/telatin/learn_bash/wiki) in this repository.
 
 
 
-### 📁 [misc](https://github.com/telatin/learn_bash/tree/master/misc) 7.5M
+### 📁 [misc](https://github.com/telatin/learn_bash/tree/master/misc) 7.4M
 
 This is an extra subdirectory, it contains its own README file for details
 
  -  [README.md](https://github.com/telatin/learn_bash/blob/master/misc/README.md)
- -  [gutenberg-freq.png](https://github.com/telatin/learn_bash/blob/master/misc/gutenberg-freq.png)
  -  📁  [ecoli](https://github.com/telatin/learn_bash/blob/master/misc/ecoli)
  -  📁  [genbank](https://github.com/telatin/learn_bash/blob/master/misc/genbank)
  -  📁  [test](https://github.com/telatin/learn_bash/blob/master/misc/test)
@@ -82,7 +81,7 @@ A set of files to test parsing of bioinformatics format, mostly related to PhiX 
  -  📁  [reads](https://github.com/telatin/learn_bash/blob/master/phage/reads)
 
 
-### 📁 [files](https://github.com/telatin/learn_bash/tree/master/files) 1.6M
+### 📁 [files](https://github.com/telatin/learn_bash/tree/master/files) 1.7M
 
 Common file formats, both binary (e.g. PNG image) and text files (e.g. CSV). A PDF document is included to see how `less` can also handle them.
 
@@ -91,6 +90,7 @@ Common file formats, both binary (e.g. PNG image) and text files (e.g. CSV). A P
  -  [Sample.pdf](https://github.com/telatin/learn_bash/blob/master/files/Sample.pdf)
  -  [cars.csv](https://github.com/telatin/learn_bash/blob/master/files/cars.csv)
  -  [edgeR.url](https://github.com/telatin/learn_bash/blob/master/files/edgeR.url)
+ -  [gutenberg-freq.png](https://github.com/telatin/learn_bash/blob/master/files/gutenberg-freq.png)
  -  [introduction.txt](https://github.com/telatin/learn_bash/blob/master/files/introduction.txt)
  -  [putty.png](https://github.com/telatin/learn_bash/blob/master/files/putty.png)
  -  [roadrunner.gif](https://github.com/telatin/learn_bash/blob/master/files/roadrunner.gif)
