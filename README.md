@@ -45,11 +45,12 @@ Archives to test decompression tools
  -  [archive.zip](https://github.com/telatin/learn_bash/blob/master/archives/archive.zip)
 
 
-### 📁 [scripts](https://github.com/telatin/learn_bash/tree/master/scripts)  52K
+### 📁 [scripts](https://github.com/telatin/learn_bash/tree/master/scripts)  60K
  -  [N50.pl](https://github.com/telatin/learn_bash/blob/master/scripts/N50.pl)
  -  [changeContigCoordBam.py](https://github.com/telatin/learn_bash/blob/master/scripts/changeContigCoordBam.py)
  -  [fasta_translate.py](https://github.com/telatin/learn_bash/blob/master/scripts/fasta_translate.py)
  -  [gutenwords.py](https://github.com/telatin/learn_bash/blob/master/scripts/gutenwords.py)
+ -  [gutenwords2.py](https://github.com/telatin/learn_bash/blob/master/scripts/gutenwords2.py)
  -  [linkweb.sh](https://github.com/telatin/learn_bash/blob/master/scripts/linkweb.sh)
  -  [phantarun.py](https://github.com/telatin/learn_bash/blob/master/scripts/phantarun.py)
  -  [prodigal2vcontact.py](https://github.com/telatin/learn_bash/blob/master/scripts/prodigal2vcontact.py)
@@ -81,7 +82,7 @@ A set of files to test parsing of bioinformatics format, mostly related to PhiX 
  -  📁  [reads](https://github.com/telatin/learn_bash/blob/master/phage/reads)
 
 
-### 📁 [files](https://github.com/telatin/learn_bash/tree/master/files) 1.7M
+### 📁 [files](https://github.com/telatin/learn_bash/tree/master/files) 2.0M
 
 Common file formats, both binary (e.g. PNG image) and text files (e.g. CSV). A PDF document is included to see how `less` can also handle them.
 
@@ -91,6 +92,7 @@ Common file formats, both binary (e.g. PNG image) and text files (e.g. CSV). A P
  -  [cars.csv](https://github.com/telatin/learn_bash/blob/master/files/cars.csv)
  -  [edgeR.url](https://github.com/telatin/learn_bash/blob/master/files/edgeR.url)
  -  [gutenberg-freq.png](https://github.com/telatin/learn_bash/blob/master/files/gutenberg-freq.png)
+ -  [gutenberg-plot.png](https://github.com/telatin/learn_bash/blob/master/files/gutenberg-plot.png)
  -  [introduction.txt](https://github.com/telatin/learn_bash/blob/master/files/introduction.txt)
  -  [putty.png](https://github.com/telatin/learn_bash/blob/master/files/putty.png)
  -  [roadrunner.gif](https://github.com/telatin/learn_bash/blob/master/files/roadrunner.gif)
