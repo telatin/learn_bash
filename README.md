@@ -10,7 +10,7 @@ See the [Wiki](https://github.com/telatin/learn_bash/wiki) in this repository.
 
 ## :calendar: History
 
-| Date       | Description | 
+| Date       | Description      | 
 |------------|------------------|
 | 2022-10-01 |  Cleanup and updates (removed legacy files, added scripts) |
 | 2019-12-04 |  Added FASTQ files, Updated README maker with links |
@@ -27,11 +27,12 @@ See the [Wiki](https://github.com/telatin/learn_bash/wiki) in this repository.
 
 
 
-### 📁 [misc](https://github.com/telatin/learn_bash/tree/master/misc) 7.4M
+### 📁 [misc](https://github.com/telatin/learn_bash/tree/master/misc) 7.5M
 
 This is an extra subdirectory, it contains its own README file for details
 
  -  [README.md](https://github.com/telatin/learn_bash/blob/master/misc/README.md)
+ -  [gutenberg-freq.png](https://github.com/telatin/learn_bash/blob/master/misc/gutenberg-freq.png)
  -  📁  [ecoli](https://github.com/telatin/learn_bash/blob/master/misc/ecoli)
  -  📁  [genbank](https://github.com/telatin/learn_bash/blob/master/misc/genbank)
  -  📁  [test](https://github.com/telatin/learn_bash/blob/master/misc/test)
@@ -45,10 +46,15 @@ Archives to test decompression tools
  -  [archive.zip](https://github.com/telatin/learn_bash/blob/master/archives/archive.zip)
 
 
-### 📁 [scripts](https://github.com/telatin/learn_bash/tree/master/scripts)  24K
+### 📁 [scripts](https://github.com/telatin/learn_bash/tree/master/scripts)  52K
  -  [N50.pl](https://github.com/telatin/learn_bash/blob/master/scripts/N50.pl)
+ -  [changeContigCoordBam.py](https://github.com/telatin/learn_bash/blob/master/scripts/changeContigCoordBam.py)
  -  [fasta_translate.py](https://github.com/telatin/learn_bash/blob/master/scripts/fasta_translate.py)
+ -  [gutenwords.py](https://github.com/telatin/learn_bash/blob/master/scripts/gutenwords.py)
  -  [linkweb.sh](https://github.com/telatin/learn_bash/blob/master/scripts/linkweb.sh)
+ -  [phantarun.py](https://github.com/telatin/learn_bash/blob/master/scripts/phantarun.py)
+ -  [prodigal2vcontact.py](https://github.com/telatin/learn_bash/blob/master/scripts/prodigal2vcontact.py)
+ -  [remap.py](https://github.com/telatin/learn_bash/blob/master/scripts/remap.py)
  -  [start_denovo.sh](https://github.com/telatin/learn_bash/blob/master/scripts/start_denovo.sh)
 
 
