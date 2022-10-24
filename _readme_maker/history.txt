@@ -1,4 +1,4 @@
-| Date       | Description | 
+| Date       | Description      | 
 |------------|------------------|
 | 2022-10-01 |  Cleanup and updates (removed legacy files, added scripts) |
 | 2019-12-04 |  Added FASTQ files, Updated README maker with links |

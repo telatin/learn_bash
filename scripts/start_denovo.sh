@@ -1,34 +1,42 @@
 #!/usr/bin/env bash
 set -e
 
-VERSION=$(conda --version)
+CONDA_VERSION=$(conda --version)
 DATADIR="$HOME"/denovo-data/
 BOLD=$(tput bold)
 RESET=$(tput sgr0)
 ENVNAME="denovotut"
 CONDA="conda"
-if [[ $VERSION == *"conda 4."* ]]; then
-    echo "Conda version 4.x detected"
+
+if [[ ! -z ${1+x} ]]; then
+    if [[ $CONDA_VERSION == *"conda 4."* ]]; then
+        echo "[INFO] Conda version 4.x detected"
+    else
+        CONDA="notfound"
+    fi
+
+    # Check if mamba is available
+    if command -v mamba &> /dev/null
+    then
+        echo "[INFO] Mamba is also available!"
+        CONDA="mamba"
+    fi
+
+    if [[ $CONDA == "notfound" ]]; then
+        echo "ERROR: conda/mamba not found"
+        exit 1
+    fi
+
+    # check if the environmnet dtp is already present
+    ENV_FOUND=$($CONDA info --envs | grep $ENVNAME | wc -l)
+    if [[ $ENV_FOUND == *"0"* ]]; then
+        echo -e "=== ${BOLD}Installing packages for the \"de novo\" tutorial${RESET}"
+        $CONDA create -n $ENVNAME -c conda-forge -c bioconda --quiet  --yes "seqfu>1.12" "flye" "fastp" "unicycler" "skesa" "abricate" 
+    fi
 else
-    echo "Conda version 4.x not detected"
-    exit 1
+    echo "Conda environment will not be created"
+    echo 'Try: conda create -n denovo -c conda-forge -c bioconda "seqfu>1.12" "flye" "fastp" "unicycler" "skesa" "abricate" '
 fi
-
-# Check if mamba is available
-if command -v mamba &> /dev/null
-then
-    $CONDA="mamba"
-fi
-echo -e "=== ${BOLD}Installing packages for the \"de novo\" tutorial${RESET}"
-
-# check if the environmnet dtp is already present
-if [[ -d "$HOME"/miniconda3/envs/$ENVNAME ]]; then
-    echo "${BOLD}INFO${RESET}: Environment $ENVNAME already present"
-else
-    #Installing bioinformatics software using bioconda
-    $CONDA create -n ${ENVNAME} -c conda-forge -c bioconda "seqfu>1.10" flye unicycler abricate --yes
-fi
-
 #Prepare a folder under HOME USER
 echo -e "=== ${BOLD}Downloading datasets${RESET}"
 mkdir -p "$DATADIR"

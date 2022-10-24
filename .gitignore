@@ -4,3 +4,5 @@
 *.fna.fai
 *.fna.pac
 *.fna.sa
+changeContigCoordBam.py
+phantarun.py

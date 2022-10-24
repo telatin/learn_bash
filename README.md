@@ -27,10 +27,6 @@ See the [Wiki](https://github.com/telatin/learn_bash/wiki) in this repository.
 
 
 
-### 📁 [caz](https://github.com/telatin/learn_bash/tree/master/caz)   0B
-
-
-
 ### 📁 [misc](https://github.com/telatin/learn_bash/tree/master/misc) 7.4M
 
 This is an extra subdirectory, it contains its own README file for details
