@@ -45,13 +45,15 @@ Archives to test decompression tools
  -  [archive.zip](https://github.com/telatin/learn_bash/blob/master/archives/archive.zip)
 
 
-### 📁 [scripts](https://github.com/telatin/learn_bash/tree/master/scripts)  64K
+### 📁 [scripts](https://github.com/telatin/learn_bash/tree/master/scripts)  72K
  -  [N50.pl](https://github.com/telatin/learn_bash/blob/master/scripts/N50.pl)
  -  [changeContigCoordBam.py](https://github.com/telatin/learn_bash/blob/master/scripts/changeContigCoordBam.py)
  -  [fasta_translate.py](https://github.com/telatin/learn_bash/blob/master/scripts/fasta_translate.py)
  -  [gutenwords-plotzipf.py](https://github.com/telatin/learn_bash/blob/master/scripts/gutenwords-plotzipf.py)
  -  [gutenwords-topandplot.py](https://github.com/telatin/learn_bash/blob/master/scripts/gutenwords-topandplot.py)
  -  [gutenwords_0.py](https://github.com/telatin/learn_bash/blob/master/scripts/gutenwords_0.py)
+ -  [gutenwords_1.py](https://github.com/telatin/learn_bash/blob/master/scripts/gutenwords_1.py)
+ -  [gutenwords_2.py](https://github.com/telatin/learn_bash/blob/master/scripts/gutenwords_2.py)
  -  [linkweb.sh](https://github.com/telatin/learn_bash/blob/master/scripts/linkweb.sh)
  -  [phantarun.py](https://github.com/telatin/learn_bash/blob/master/scripts/phantarun.py)
  -  [prodigal2vcontact.py](https://github.com/telatin/learn_bash/blob/master/scripts/prodigal2vcontact.py)

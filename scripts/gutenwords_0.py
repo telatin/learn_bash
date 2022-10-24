@@ -40,7 +40,7 @@ for word in words:
         word_counts[word] = 0
     word_counts[word] += 1
 
-# Sort the dictionary by value
+# Sort the dictionary by value: see for example https://www.freecodecamp.org/news/sort-dictionary-by-value-in-python/
 sorted_word_counts = sorted(word_counts.items(), key=lambda x: x[1], reverse=True)
 
 # Print the top n words
