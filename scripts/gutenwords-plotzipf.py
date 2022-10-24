@@ -6,27 +6,41 @@ but keeping the original data structure
 """
 
 import logging
-
-def lines(file, from_line="", to_line=""):
+import re
+def title_lines(file, from_line="", to_line=""):
     """
     Iterator on file lines (stripped from newlines):
-    Given a text file will return all the lines between line starting with
-    'from_line' and line starting with 'to_line'
+    Return title, and words
     """
-    can_yield = False
+    title = "UNDEFINED"
+    text = ""
+    store_line = False if from_line  != "" else True
+    
     try:
         with open(file, mode="r", encoding="latin-1") as f:
             for line in f:
-                if line.startswith(to_line):
+                # Check if line matches regex "from_line"
+                if from_line != "" and re.match(from_line, line):
+                #if line.startswith(to_line):
+                    # the title is what follows "EBOOK"
+                    if "EBOOK" in line:
+                        title = line.split("EBOOK")[1].strip().strip("* ")
+                    store_line = True
+                elif to_line  != "" and re.match(to_line, line):
+                    store_line = False
                     break
-                elif can_yield:
-                    yield line.strip()
-                else:
-                    can_yield = line.startswith(from_line)
+                elif store_line:
+                    text += line
+
+        # Strip non A-Z characters from title
+        title = "".join(c for c in title if c.isalpha() or c.isspace()) if title != "UNDEFINED" else os.path.basename(file)
+        return title, text
     except FileNotFoundError:
         logging.error("[lines] File %s not found", file)
+        return "ERROR1", "ERROR"
     except Exception as e:
         logging.error("[lines] Error reading %s: %s", file, e)
+        return "ERROR2", "ERROR"
 
 def words(line):
     """
@@ -50,14 +64,7 @@ def words(line):
         except AttributeError:
             pass
 
-def top_n_words(dict, n=10, reverse=False):
-    """
-    Given a dictionary of key:counts, return a dictionary
-    with the top n key:values
-    """
-    rev = not reverse
-    return {k: v for k, v in sorted(dict.items(), key=lambda item: item[1], reverse=rev)[:n]}
-
+ 
 if __name__ == "__main__":
     import argparse
     args = argparse.ArgumentParser("Analyse the frequency of words in a set of Gutenberg files")
@@ -66,8 +73,8 @@ if __name__ == "__main__":
     args.add_argument("-m", "--max", help="Max files to process, 0 for all [default: %(default)s]", type=int, default=1000)
     args.add_argument("-p", "--max-plot", help="Max files to plot, 0 for all [default: %(default)s]", type=int, default=20)
     
-    args.add_argument("--start", help="Start of the manuscript [default: %(default)s]", default="*** START OF")
-    args.add_argument("--end", help="End of the manuscript [default: %(default)s]", default="*** END OF")
+    args.add_argument("--start", help="Start of the manuscript [default: %(default)s]", default="\*\*\*\s?START OF")
+    args.add_argument("--end", help="End of the manuscript [default: %(default)s]", default="\*\*\*\s?END OF")
     args.add_argument("--verbose", help="Verbose output", action="store_true")
     args.add_argument("--debug", help="Debug output", action="store_true")
     args = args.parse_args()
@@ -108,18 +115,27 @@ if __name__ == "__main__":
         xAxis = [str(number) for number in range(1, depth+1)]
 
         allText = ""
+        texts["ALL"] = ""
         for file in args.FILES:
             # Process at most args.max files
             if args.max > 0 and len(texts) >= args.max:
                 break
-            with open(file, 'r', encoding='latin-1') as f:
-                texts[os.path.basename(file.split('.')[0])] = f.read()
-                allText += " " + texts[os.path.basename(file.split('.')[0])]
+
+           
+            title, text = title_lines(file, from_line=args.start, to_line=args.end)
+
+            if title == "UNDEFINED":
+                logger.warning("Title not found in %s: skipping", file)
+                continue
+            texts[title] = text
+            allText += " " + text
+            
         
         texts["ALL"] = allText
 
-        files_to_process = args.FILES
+        
         # Remove duplicates
+        files_to_process = args.FILES
         files_to_process = list(dict.fromkeys(files_to_process))
 
         # Cleaning and counting the Text
@@ -134,7 +150,9 @@ if __name__ == "__main__":
             # Remove unwanted characters from the texts
             for character in unwantedCharacters:
                 texts[text] = texts[text].replace(character, '').lower()
-            splittedText = texts[text].split(' ')
+            
+            #splittedText = texts[text].split(' ')
+            splittedText = list(words(texts[text]))
             # Saving the text length to show in the label of the line later
             textlengths[text] = len(splittedText)
             # Here will be the amount of occurence of each word stored
@@ -188,6 +206,7 @@ if __name__ == "__main__":
         keys_top = list(textwordamounts.keys())[0:args.max_plot]
         keys_top[0] = "ALL" if not "ALL" in keys_top else keys_top[0]
         for i in keys_top:
+            logger.info("Plotting %s" % i)
             maxValue = list(textwordamounts[i].values())[0]
             yAxis = [percentify(value, maxValue) for value in list(textwordamounts[i].values())]
             x, y = smoothify(yAxis)
