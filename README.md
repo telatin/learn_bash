@@ -4,8 +4,8 @@ A list of example files to start using the Linux Command Line interface (CLI).
 
 ### Resources using this repository
 
-:book: [Bash for bioinformatics course](https://telatin.github.io/microbiome-bioinformatics/Bash-course/)
-:star: [Intro to Bash scripting](https://telatin.github.io/microbiome-bioinformatics/Bash-tutorial-1/)
+- :book: [**Bash for bioinformatics course**](https://telatin.github.io/microbiome-bioinformatics/Bash-course/)
+- :star: [**Intro to Bash scripting**](https://telatin.github.io/microbiome-bioinformatics/Bash-tutorial-1/)
 
 ## :book: Bash tutorial
 
