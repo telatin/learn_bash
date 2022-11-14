@@ -1,7 +1,11 @@
 # Bioinformatics and the Linux Terminal
 
 A list of example files to start using the Linux Command Line interface (CLI). 
-Originally prepared for [Bash for Bioinformatics](https://seq.space/notes/doku.php?id=bash-beginners) training
+
+### Resources using this repository
+
+:book: [Bash for bioinformatics course](https://telatin.github.io/microbiome-bioinformatics/Bash-course/)
+:star: [Intro to Bash scripting](https://telatin.github.io/microbiome-bioinformatics/Bash-tutorial-1/)
 
 ## :book: Bash tutorial
 
