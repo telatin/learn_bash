@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-# A script to calculate N50 from one or multiple FASTA/FASTQ files, 
-# or from STDIN.
+#ABSTRACT: A script to calculate N50 from one or multiple FASTA/FASTQ files, or from STDIN.
 
 use v5.12;
 use Pod::Usage;
@@ -8,7 +7,7 @@ use Term::ANSIColor  qw(:constants colorvalid colored);
 use Getopt::Long;
 use File::Basename;
 use JSON::PP;
-
+our $BASE = basename($0);
 local $Term::ANSIColor::AUTORESET = 1;
 
 our %program = (
@@ -75,7 +74,17 @@ if (defined $opt_format) {
 		print STDERR " WARNING: Format '$opt_format' not implemented yet. Switching to 'tsv'.\n";
 		$opt_format = 'tsv';
 	}
+    if ($opt_format eq 'csv') {
+        $opt_separator = ',';
+    }
 
+}
+
+if (not defined $ARGV[0]) {
+    print STDERR GREEN, "n50 - calculate N50 of FASTA/FASTQ files\n", RESET;
+    print STDERR "USAGE: $BASE [options] FILE1 FILE2 FILE3...\n";
+    print STDERR "No input files specified.\n";
+    exit;
 }
 foreach my $file (@ARGV) {
 	
@@ -83,9 +92,12 @@ foreach my $file (@ARGV) {
 		die " FATAL ERROR:\n File not found ($file).\n";	
 	} elsif ($file eq '-') {
 		$file = '<STDIN>';
-	} else {
+	} elsif ($file =~/.gz$/) {
+        open STDIN, '-|', "gzip -dc $file" || die " FATAL ERROR:\n Unable to open file for reading ($file).\n";
+    } else {
 		open STDIN, '<', "$file" || die " FATAL ERROR:\n Unable to open file for reading ($file).\n";
 	}
+    
 
 
 
@@ -94,12 +106,14 @@ foreach my $file (@ARGV) {
 	my ($n, $slen) = (0, 0);
 
 	while (my ($name, $seq) = readfq(\*STDIN, \@aux)) {
-	    ++$n;
+        next if ($name eq '');
+	    $n++;
 
 	    my $size = length($seq);
 	    $slen += $size;
 	    $sizes{$size}++;
 	}
+    
 	my $n50 = n50fromHash(\%sizes, $slen);
 
 	say STDERR "[$file]\tTotalSize:$slen;N50:$n50;Sequences:$n" if ($opt_debug);
@@ -127,7 +141,7 @@ if (!$opt_format or $opt_format eq 'default') {
 	}
 } elsif ($opt_format eq 'json') {
 	
-	my $json = JSON->new->allow_nonref;
+	my $json = JSON::PP->new->allow_nonref;
 	my $pretty_printed = $json->pretty->encode( \%output_object );
 	say $pretty_printed;
 
@@ -170,8 +184,6 @@ sub printMessage {
 	my ($message, $title, $title_color, $message_color) = @_;
 	$title_color   = 'reset' if (!defined $title_color or !colorvalid($title_color) or !$opt_color);
 	$message_color = 'reset' if (!defined $message_color or !colorvalid($message_color) or !$opt_color);
-
-	
 	say STDERR colored("$title", $title_color), "\t", colored("$message", $message_color);
 }
 sub n50fromHash {
@@ -185,14 +197,14 @@ sub n50fromHash {
 }
 
 sub version {
-	printMessage("$program{NAME}, ver. $program{VERSION}", '', 'reset', 'bold green');
+	printMessage("$program{NAME}, ver. $program{VERSION}", '', 'RESET', 'bold green');
 	printMessage(qq(
 	$program{AUTHOR}
 
 	Program to calculate N50 from multiple FASTA/FASTQ files.
 	Type --help (or -h) to see the full documentation.), '', 'blue', 'green');
-END
-
+END;
+    exit;
 }
 sub readfq {
     my ($fh, $aux) = @_;
@@ -261,18 +273,18 @@ printed for a single file and all metrics in TSV format for multiple files.
  
 =head1 SYNOPSIS
  
-n50.pl [options] [FILE1 FILE2 FILE3...]
+  n50.pl [options] [FILE1 FILE2 FILE3...]
 
 =head1 PARAMETERS
 
 =over 12
 
-=item I<-f, --format>
+=item B<-f, --format>
 
 Output format: default, tsv, json, custom. 
 See below for format specific switches.
 
-=item I<-s, --separator>
+=item B<-s, --separator>
 
 Separator to be used in 'tsv' output. Default: tab.
 The 'tsv' format will print a header line, followed
@@ -280,22 +292,22 @@ by a line for each file given as input with: file path,
 as received, total number of sequences, total size in bp,
 and finally N50.
 
-=item I<-b, --basename>
+=item B<-b, --basename>
 
 Instead of printing the path of each file, will only print
 the filename, stripping relative or absolute paths to it.
 
-=item I<-j, --noheader>
+=item B<-j, --noheader>
 
 When used with 'tsv' output format, will suppress header
 line.
 
-=item I<-n, --nonewline>
+=item B<-n, --nonewline>
 
 If used with 'default' or 'csv' output format, will NOT print the
-newline character after the N50. Usually used in bash scripting.ù
+newline character after the N50. Usually used in bash scripting.
 
-=item I<-t, --template>
+=item B<-t, --template>
 
 String to be used with 'custom' format. Will be used as template
 string for each sample, replacing {new} with newlines, {tab} with
@@ -303,7 +315,7 @@ tab and {N50}, {seqs}, {size}, {path} with sample's N50, number of sequences,
 total size in bp and file path respectively (the latter will
 respect --basename if used).
 
-=item I<-p, --pretty>
+=item B<-p, --pretty>
 
 If used with 'json' output format, will format the JSON
 in pretty print mode. Example:
@@ -322,12 +334,32 @@ in pretty print mode. Example:
   }
  }
  
-=item I<-h, --help>
+=item B<-h, --help>
 
 Will display this full help message and quit, even if other
 arguments are supplied.
 
 =back
+
+=head1 INSTALLATION
+
+A complete package with more feature is Proch::N50, installable with
+
+  cpan Proch::N50
+
+Or from Bioconda with:
+
+  conda install -c bioconda n50
+
+And a complete suite of tools including statistics, is available as
+
+  conda install -c bioconda "seqfu>=1.10"
+
+=head1 CITATION
+
+Telatin A, Fariselli P, Birolo G. 
+SeqFu: A Suite of Utilities for the Robust and Reproducible Manipulation of Sequence Files. 
+Bioengineering 2021, 8, 59. L<10.3390/bioengineering8050059|https://doi.org/10.3390/bioengineering8050059>
 
 =head1 COPYRIGHT
  
@@ -344,7 +376,6 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 GNU General Public License for more details.
  
 You should have received a copy of the GNU General Public License
-along with this program.  If not, see <http://www.gnu.org/licenses/>.
+and this program.  If not, see <http://www.gnu.org/licenses/>.
  
 =cut
-
